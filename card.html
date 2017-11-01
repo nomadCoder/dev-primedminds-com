@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- local css -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/card.css">
+
+    <!-- jquery js -->
+    <script src="public/javascript/jquery-1.12.3.min.js"></script>
+    <!-- materialize js -->
+    <script src="public/javascript/materialize.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- local js -->
+    <script src="javascript/card.js"></script>
+</head>
+
+<body>
+            <div class='container2-top'>
+                <p class="bubble" id="text_bubble">Welcome to Spot It! Good Luck!</p>
+            </div>
+
+            <div class='container2-left'>
+                <div class="container" id="images">
+                    <div id="buttons">
+                        <button id="reset" onclick="clearCards()">Start Over</button>
+
+                        <button id="draw1">Draw Card</button>
+                    </div>
+
+                    <div id='trash-it'>
+                        <!--<img id="trashcan" ondrop="dropTrash(event)" ondragover="allowDrop(event)" src="assets/trash.png">-->
+                        <i class="material-icons md-48" id="trashcan" ondrop="dropTrash(event)" ondragover="allowDrop(event)">delete_forever</i>
+                    </div>
+
+                    <div id="monster_bar" ondrop="dropTrash(event)" ondragover="allowDrop(event)">
+                        <img class="monster" id="image blackPom" draggable="true" ondragstart="drag(event)" 
+                        	src="assets/card/blackPom-min.png">
+                        <img class="monster" id="image bwPom" draggable="true" ondragstart="drag(event)"
+                        	src="assets/card/bwPom-min.png">
+                        <img class="monster" id="image bluePom" draggable="true" ondragstart="drag(event)"
+                        	src="assets/card/bluePom-min.png">
+                        <img class="monster" id="image orangePom" draggable="true" ondragstart="drag(event)" 
+                        	src="assets/card/orangePom-min.png">
+                        <img class="monster" id="image purplePom" draggable="true" ondragstart="drag(event)" 
+                        	src="assets/card/purplePom-min.png">
+                        <img class="monster" id="image greenPom" draggable="true" ondragstart="drag(event)"
+                        	src="assets/card/greenPom-min.png">
+                        <img class="monster" id="image redPom" draggable="true" ondragstart="drag(event)"
+                        	src="assets/card/redPom-min.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class='container2-right'>
+                <div class="sortable container" id="cards">
+                    <!-- filled in by card.js 
+                    	Intentially left empty here as user has not "drawn" cards yet -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spot It Exploration</title>
+    
+    <!-- materialize css -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/materialize.min.css">
+    <!-- local css -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/pp_flow.css">
+
+    <!-- jquery js -->
+    <script src="public/javascript/jquery-1.12.3.min.js"></script>
+    <!-- materialize js -->
+    <script src="public/javascript/materialize.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- local js -->
+    <script src="javascript/si_flow.js"></script>
+
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body id="body">
+    <div id='backHome-container'>
+        <a href='explorations.html'>
+            <div id='backHome'></div>
+        Back to Explorations </a> 
+    </div>  
+    <div id='backMap-container'>
+        <a href='si_map.html'>
+            <div id='backMap'></div>
+        Back to Map </a> 
+    </div>
+
+    <div class='left-arrow arrow'>
+        <i class="material-icons md-48" onclick="slideChange(-1)">arrow_back</i>
+    </div>
+
+    <div class='right-arrow arrow'>
+        <i class="material-icons md-48" onclick="slideChange(1)">arrow_forward</i>
+    </div>
+
+    <div id="main">  
+        <div id="inside" class="container slide"  style="display: inline-block;"></div>
+    </div> <!-- end main --> 
+</body>
+
+</html>

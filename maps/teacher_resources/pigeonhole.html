@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pigeonhole Map</title>
+       <link rel="stylesheet" href="../../stylesheets/trpigeonholemap.css">
+    <script src="../../javascript/header.js"></script>
+    <script src="../../javascript/mapcode.js"></script>
+
+</head>
+<body onload="flash()">
+  <div id='backHome-container'>
+        <a href='../../resources.html'>
+            <div id='backHome'></div>
+        Back to Resources </a> 
+    </div> 
+<img id="background" onmousemove="hideall()" onclick="getlocations(event)" src="https://trello-attachments.s3.amazonaws.com/5877b048233b368f5368e436/58c06651187c83189be5df15/de22d932908de18e2d34085c45c47389/PPPigeonMap.png" alt="Pigeonhole Map"> </img>
+
+<div class="hover" id="hTask1" onmouseover="sethm('hTask1', 'mTask1')"></div>
+<a href="assets/explorations/Task-Pigeonhole1.pdf" target="_blank" <div class="message" id="mTask1" onmouseout="hide()" onmouseover="sethm('hTask1', 'mTask1')"><p>Setting the scene: pom-poms for sox</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+
+<div class="hover" id="hPPI8" onmouseover="sethm('hPPI8', 'mPPI8')"></div>
+<div class="message" id="mPPI8" onmouseout="hide()" onmousedown="openvideo('vPPI8')" onmouseover="sethm('hPPI8', 'mPPI8')"><p>Interactive investigation aide</p><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</iframe></div>
+<div id="vPPI8" class="openvideo" style="display:none;"><iframe class="video" src="../../soxmonster.html" frameborder="0"></iframe><img class="close" onmousedown="closevideo('vPPI8')" src="../../assets/CloseWindow.png"></img></div>
+
+<div class="hover" id="hTask2" onmouseover="sethm('hTask2', 'mTask2')"></div>
+<a href="assets/explorations/Task-Pigeonhole2.pdf" target="_blank" <div class="message" id="mTask2" onmouseout="hide()" onmouseover="sethm('hTask2', 'mTask2')"><p>Stumbling around in the dark, aka investigating</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hHandout1" onmouseover="sethm('hHandout1', 'mHandout1')"></div>
+<a href="assets/explorations/Handout-Pigeonhole1.pdf" target="_blank" <div class="message" id="mHandout1" onmouseout="hide()" onmouseover="sethm('hHandout1', 'mHandout1')"><p>Strategy sheet</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hHandout2" onmouseover="sethm('hHandout2', 'mHandout2')"></div>
+<a href="assets/explorations/Handout-Pigeonhole2.pdf" target="_blank" <div class="message" id="mHandout2" onmouseout="hide()" onmouseover="sethm('hHandout2', 'mHandout2')"><p>Same strategy, different extension questions</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+
+<div class="hover" id="hPPV9" onmouseover="sethm('hPPV9', 'mPPV9')"></div>
+<div class="message" id="mPPV9" onmouseout="hide()" onmousedown="openvideo('vPPV9')" onmouseover="sethm('hPPV9', 'mPPV9')"><p>Drawerful of sox explained</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div>
+<div id="vPPV9" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/nlGLZRmv8fw" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPV9')" src="../../assets/CloseWindow.png"></img></div>
+
+<div class="hover" id="hPPI9" onmouseover="sethm('hPPI9', 'mPPI9')"></div>
+<div class="message" id="mPPI9" onmouseout="hide()" onmousedown="openvideo('vPPI9')" onmouseover="sethm('hPPI9', 'mPPI9')"><p>Interactive stuffing pigeons into pigeonholes</p><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img></div>
+<div id="vPPI9" class="openvideo" style="display:none;"><iframe class="video" src="../../pigeonhole.html" frameborder="0"></iframe><img class="close" onmousedown="closevideo('vPPI9')" src="../../assets/CloseWindow.png"></img></div>
+
+<div class="hover" id="hPPV10" onmouseover="sethm('hPPV10', 'mPPV10')"></div>
+<div class="message" id="mPPV10" onmouseout="hide()" onmousedown="openvideo('vPPV10')" onmouseover="sethm('hPPV10', 'mPPV10')"><p>Pigeons and sox connected. Play up to 1 min in</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div>
+<div id="vPPV10" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/EofnBtT5Z14" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPV10')" src="../../assets/CloseWindow.png"></img></div>
+
+<div class="hover" id="hTask3" onmouseover="sethm('hTask3', 'mTask3')"></div>
+<a href="assets/explorations/Task-Pigeonhole1.pdf" target="_blank" <div class="message" id="mTask3" onmouseout="hide()" onmouseover="sethm('hTask3', 'mTask3')"><p>Connecting Sox to Pigeons</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hPPTRP1" onmouseover="sethm('hPPTRP1', 'mPPTRP1')"></div>
+<div class="message" id="mPPTRP1" onmousedown="openvideo('vPPTRP1')" onmouseout="hide()" onmouseover="sethm('hPPTRP1', 'mPPTRP1')"><p>Overview</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRP1" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/-kFDyPf-wS0" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRP1')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRP2" onmouseover="sethm('hPPTRP2', 'mPPTRP2')"></div>
+<div class="message" id="mPPTRP2" onmousedown="openvideo('vPPTRP2')" onmouseout="hide()" onmouseover="sethm('hPPTRP2', 'mPPTRP2')"><p>Pompoms for sox</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRP2" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/Fl4lfQgkueU" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRP2')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRP3" onmouseover="sethm('hPPTRP3', 'mPPTRP3')"></div>
+<div class="message" id="mPPTRP3" onmousedown="openvideo('vPPTRP3')" onmouseout="hide()" onmouseover="sethm('hPPTRP3', 'mPPTRP3')"><p>Stumbling around in the dark</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRP3" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/gS3jKnEeUHU" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRP3')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRP4" onmouseover="sethm('hPPTRP4', 'mPPTRP4')"></div>
+<div class="message" id="mPPTRP4" onmousedown="openvideo('vPPTRP4')" onmouseout="hide()" onmouseover="sethm('hPPTRP4', 'mPPTRP4')"><p>Simplifying and turning the problem on its head</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRP4" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/TQSKiCwTouw" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRP4')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRP5" onmouseover="sethm('hPPTRP5', 'mPPTRP5')"></div>
+<div class="message" id="mPPTRP5" onmousedown="openvideo('vPPTRP5')" onmouseout="hide()" onmouseover="sethm('hPPTRP5', 'mPPTRP5')"><p>Mathematics of monsters picking sox</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRP5" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/MhuPe-jjmRM" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRP5')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRP6" onmouseover="sethm('hPPTRP6', 'mPPTRP6')"></div>
+<div class="message" id="mPPTRP6" onmousedown="openvideo('vPPTRP6')" onmouseout="hide()" onmouseover="sethm('hPPTRP6', 'mPPTRP6')"><p>Stop and paraphrase</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRP6" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/ut89GRJGbQ4" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRP6')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRP7" onmouseover="sethm('hPPTRP7', 'mPPTRP7')"></div>
+<div class="message" id="mPPTRP7" onmousedown="openvideo('vPPTRP7')" onmouseout="hide()" onmouseover="sethm('hPPTRP7', 'mPPTRP7')"><p>The deep mathematical principle from pigeons</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRP7" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/GwTq2djsWnU" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRP7')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRP8" onmouseover="sethm('hPPTRP8', 'mPPTRP8')"></div>
+<div class="message" id="mPPTRP8" onmousedown="openvideo('vPPTRP8')" onmouseout="hide()" onmouseover="sethm('hPPTRP8', 'mPPTRP8')"><p>Physical boxes</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRP8" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/8zni75a6ALE" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRP8')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div id="flasher" onload="flash()">
+</body>
+</html>

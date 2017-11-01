@@ -1,0 +1,76 @@
+html {
+  width: 1090px;
+  height: 500px;
+  background-color: #f5f5f5;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+table {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td {
+  background: rgba(70, 70, 180, 0.3)
+}
+
+#heading {
+  text-align: center;
+}
+
+#pigeonid, #doublepigeonsid {
+  position: relative;
+  z-index: -1;
+}
+
+#pgncontainer {
+  position: absolute;
+  border-width: 5px;
+  border-style: solid;  
+  border-color: #ffe900;
+  border-radius: 10px;
+  left: calc(50vw - 500px);
+  top: 33vw;
+  height: 100px;
+  width: 1000px;
+}
+
+#counter {
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  left: calc(50vw - 100px);
+  box-sizing: border-box;
+  padding: 11px 20px;
+  color: black;
+  background-color: #ffe900;
+  border-radius: 100px;
+  font-size: 13pt;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .4);
+}
+
+#button:hover {
+  transform: scale(1.09);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .6);
+}
+#button {
+  position: absolute;
+  width: 120px;
+  box-sizing: border-box;
+  padding: 11px 20px;
+  color: white;
+  background-color: #f44336;
+  border-radius: 100px;
+  font-size: 12pt;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .4);
+  position: absolute;
+  top: 100px;
+  left: calc(50vw - 60px);
+  transition: all .2s;
+}

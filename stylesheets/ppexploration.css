@@ -1,0 +1,295 @@
+body {
+  background-color: #ffe900;
+}
+
+#flasher {
+  position: absolute;
+  height: calc(92vh / 9);
+  width: calc(75vh / 9);
+  background-color: #ffe900;
+  top: calc(675vh / 9);
+  left: calc(32vh / 9);
+  z-index: 2;
+}
+
+#backHome-container {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #7d7979;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+#backHome {
+    top: 27px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    display: block;
+    background-image: url("https://i.imgur.com/1rUjP5K.png");
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .3);
+    float: left;
+}
+
+#backHome-container:hover {
+    transform: scale(1.07);
+}
+
+#background {
+  height: calc(900vh / 9);
+  width: calc(1500vh / 9);
+  z-index: 1;
+}
+
+.hover {
+  position: absolute;
+  height: calc(75vh / 9);
+  width: calc(75vh / 9);
+  //background-color: red;
+  opacity: 0.0;
+  z-index: 2;
+}
+
+.message {
+  position: absolute;
+  background-color: #ffe900;
+  width: calc(500vh / 9);
+  margin: auto;
+  border-style: solid;
+  border-color: #DC2222;
+  border-radius: 25px;
+  box-shadow: 0 0 30px black;
+  -moz-box-shadow: 0 0 30px black;
+  -webkit-box-shadow: 0 0 30px black;
+  visibility: hidden;
+  z-index: 3;
+}
+
+p {
+  font-size: 20px;
+  padding: 5px;
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+p:not(.videotext):not(#cablecar) {
+  width: calc(300vh / 9);
+}
+
+#cablecar {
+  padding-right: 40px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+span {
+  font-weight: bold;
+}
+
+#slideshow {
+  position: absolute;
+  right: calc(50vh / 9);
+  top: 25%;
+  height: calc(62.5vh / 9);
+  width: calc(62.5vh / 9);
+}
+
+#video {
+  float: right;
+  margin: 75px 30px 0 0;
+  height: calc(62.5vh / 9);
+  width: calc(85vh / 9);
+}
+
+#interactive {
+  position: absolute;
+  right: calc(50vh / 9);
+  top: 25%;
+  margin-left: calc(10vh / 9);
+  height: calc(62.5vh / 9);
+  width: calc(100vh / 9);
+}
+
+.openvideo {
+  height: calc(750vh / 9);
+  width: calc(1350vh / 9);
+  position: absolute;
+  background-color: #ffe900;
+  top: calc(100vh / 9);
+  left: calc(100vh / 9);
+  margin: auto;
+  border-style: solid;
+  border-color: #DC2222;
+  border-radius: 50 PX;
+  z-index: 4;
+}
+
+.video {
+  position: absolute;
+  top: calc(100vh / 9);
+  left: calc(125vh / 9);
+  width: calc(1067.5vh / 9);
+  height: calc(600vh / 9);
+}
+
+.close {
+  position: absolute;
+  top: calc(10vh / 9);
+  right: calc(10vh / 9);
+  height: calc(100vh / 9);
+  width: calc(100vh / 9);
+}
+
+#hPPV1, #mPPV1 {
+  top: calc(645vh / 9);
+  left: calc(222vh / 9);
+}
+
+#hPPI1, #mPPI1 {
+  top: calc(506vh / 9);
+  left: calc(284vh / 9);
+}
+
+#hPPV2, #mPPV2 {
+  top: calc(404vh / 9);
+  left: calc(69vh / 9);
+}
+
+#hPPI2, #mPPI2 {
+  top: calc(164vh / 9);
+  left: calc(50vh / 9);
+}
+
+#hPPV3, #mPPV3 {
+  top: calc(80vh / 9);
+  left: calc(278vh / 9);
+}
+
+#hPPS3, #mPPS3 {
+  top: calc(273vh / 9);
+  left: calc(315vh / 9);
+}
+
+#hPPV4, #mPPV4 {
+  top: calc(405vh / 9);
+  left: calc(465vh / 9);
+}
+
+#hPPI4, #mPPI4 {
+  top: calc(198vh / 9);
+  left: calc(582vh / 9);
+}
+
+#hPPV5, #mPPV5 {
+  top: calc(33vh / 9);
+  left: calc(501vh / 9);
+}
+
+#hPPI5, #mPPI5 {
+  top: calc(17vh / 9);
+  left: calc(753vh / 9);
+}
+
+#hPPV6, #mPPV6 {
+  top: calc(185vh / 9);
+  left: calc(761vh / 9);
+}
+
+#hPPV6B, #mPPV6B {
+  top: calc(374vh / 9);
+  left: calc(689vh / 9);
+}
+
+#hCableCar, #mCableCar {
+  top: calc(476vh / 9);
+  left: calc(693vh / 9);
+}
+
+#hPPI6, #mPPI6 {
+  top: calc(632vh / 9);
+  left: calc(461vh / 9);
+}
+
+#hPPV7 {
+  top: calc(797vh / 9);
+  left: calc(456vh / 9);
+}
+
+#mPPV7 {
+  top: calc(597vh / 9);
+  left: calc(456vh / 9);
+}
+
+#hPPI7 {
+  top: calc(803vh / 9);
+  left: calc(755vh / 9);
+}
+
+#mPPI7 {
+  top: calc(753vh / 9);
+  left: calc(755vh / 9);
+}
+
+#hPPV8, #mPPV8 {
+  top: calc(542vh / 9);
+  left: calc(752vh / 9);
+}
+
+#hPPI8, #mPPI8 {
+  top: calc(455vh / 9);
+  left: calc(947vh / 9);
+}
+
+#hPPV9 {
+  top: calc(444vh / 9);
+  left: calc(1151vh / 9);
+}
+
+#mPPV9 {
+  top: calc(444vh / 9);
+  left: calc(951vh / 9);
+}
+
+#hPPI9 {
+  top: calc(399vh / 9);
+  left: calc(1356vh / 9);
+}
+
+#mPPI9 {
+  top: calc(399vh / 9);
+  left: calc(956vh / 9);
+}
+
+#hPPV10 {
+  top: calc(239vh / 9);
+  left: calc(1235vh / 9);
+}
+
+#mPPV10 {
+  top: calc(239vh / 9);
+  left: calc(935vh / 9);
+}
+
+#hPPI10, #mPPI10 {
+  top: calc(224vh / 9);
+  left: calc(980vh / 9);
+}
+
+#hPPV11, #mPPV11 {
+  top: calc(41vh / 9);
+  left: calc(1080vh / 9);
+}

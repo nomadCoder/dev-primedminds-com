@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="primed minds drawer of sox">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Drawer of Sox</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="stylesheets/soxmonster.css">
+		
+   </head>
+
+   <body>
+     
+      <div class="container" id="app">
+      	<div class="row" id="holder">
+      		
+      		<!-- this section holds the interactive elements -->
+      		<div class="col-sm-8" id="interaction">
+
+      			<!-- color chooser and draw button -->
+			      <div class="row toprow">
+
+			      	<div class="col-sm-1"></div>
+
+			      	<div class="col-sm-2 colors">
+			      		<div>Colors:</div>
+
+			      		<select v-model="colors" @change="reset" class="form-control yellow" id="colors">
+								<option v-for="count in 10" :value="count + 1">{{ count + 1 }}</option>
+							</select>
+
+			      	</div>
+
+			      	<div class="col-sm-3 draw">
+
+			      		<!-- pick a sock button -->
+			      		<!-- apply class "disabled" if var disabled is true -->
+			      		<!-- animate the monster on click -->
+			      		<button class="btn btn-danger red" id="drawbtn" :class="{ disabled: disabled }" @click="animateMonster">Pick a Sock!</button>
+
+			      		<!-- reset button -->
+			      		<button class="btn btn-default" id="clear" @click="reset">Reset Socks</button>
+			      	
+			      	</div>
+			      </div>
+
+			      <!-- row to display sock images -->
+			      <div class="row" id="sockrow">
+
+			      	<!-- loop through showingSocks array and display those socks only -->
+			      	<!-- add addborder class if there is a match -->
+			      	<img 
+			      		v-for="sock in showingSocks" 
+			      		:src="sock.source" 
+			      		alt="sock" 
+			      		class="sockimg" 
+			      		:class="{ addborder: sock.match }"
+			      	>
+
+			      </div>
+
+			      <div class="row">
+
+			      	<div id="monsterimg" class="col-sm-9">
+			      		<!-- src is dynamically bound, so animateMonster will animate it -->
+			      		<img :src="monsterSrc" alt="monster" class="img-responsive">
+			      	</div>
+
+			      	<div class="col-sm-3" id="gotapair">
+			      		<!-- this displays only if there is a match -->
+			      		<p v-if="disabled">
+			      		You got a pair!
+			      		<br>
+			      		It took {{ currentDraws }} draws.
+			      		</p>
+			      		
+			      	</div>			      	
+			      </div>
+			   </div>
+
+			   <!-- this section holds the data table -->
+			   <div class="col-sm-4" id="data">
+
+			   	<div class="panel panel-default">
+					   <table class="table table-hover table-bordered">
+
+					   	<thead>
+					   		<th class="info">Number of colors</th>
+					   		<th class="info">Most draws to make a pair</th>
+					   	</thead>
+
+					   	<tbody>
+					   		
+						   	<!-- loop through dataTable and dynamically display its contents -->
+						   	<tr v-for="item in dataTable">
+
+						   		<td>{{ item[0] }}</td>
+						   		<!-- make the number red if it's greater than 0 -->
+						   		<!-- and make it flash if it's a new record-->
+						   		<td :class="{ 
+						   			rednumber: item[1] > 0, 
+						   			flashing: flash % 2 == 0 && item[1] != item[2]
+						   		}">{{ item[1] }}</td>
+
+						   	</tr>
+					   	</tbody>
+					   </table>
+					</div>
+			   </div>
+		   </div>
+      </div>
+
+
+      <script src="public/javascript/vue.min.js"></script>
+      <script src="javascript/soxmonster.js"></script>
+	</body>
+	
+</html>

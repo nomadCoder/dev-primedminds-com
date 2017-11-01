@@ -1,0 +1,232 @@
+body {
+  background-color: #ffe900;
+}
+#background {
+  height: 900px;
+  width: 1500px;
+  z-index: 1;
+}
+
+#backHome-container {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #7d7979;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+#backHome {
+    top: 27px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    display: block;
+    background-image: url("https://i.imgur.com/1rUjP5K.png");
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .3);
+    float: left;
+}
+
+#backHome-container:hover {
+    transform: scale(1.07);
+}
+
+.hover {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  //background-color: red;
+  opacity: 0.0;
+  z-index: 2;
+}
+
+.message {
+  position: absolute;
+  background-color: #ffe900;
+  width: 500px;
+  margin: auto;
+  border-style: solid;
+  border-color: #DC2222;
+  border-radius: 25px;
+   box-shadow: 0 0 30px black;
+  -moz-box-shadow: 0 0 30px black;
+  -webkit-box-shadow: 0 0 30px black;
+  visibility: hidden;
+  z-index: 3;
+}
+
+p {
+  width: 300px;
+  font-size: 30px;
+  padding: 5px;
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#slideshow, #handout {
+  position: absolute;
+  right: 50px;
+  top: 30%;
+  height: 62.5px;
+  width: 62.5px;
+}
+
+#video {
+  position: absolute;
+  right: 50px;
+  top: 30%;
+  height: 62.5px;
+  width: 85px;
+}
+
+#interactive {
+  position: absolute;
+  right: 50px;
+  top: 30%;
+  height: 62.5px;
+  width: 100px;
+}
+
+.openvideo {
+  height: 750px;
+  width: 1350px;
+  position: absolute;
+  background-color: #ffe900;
+  top: 100px;
+  left: 100px;
+  margin: auto;
+  border-style: solid;
+  border-color: #DC2222;
+  border-radius: 50px;
+  z-index: 4;
+}
+
+.video {
+  position: absolute;
+  top: 100px;
+  left: 125px;
+  width: 1067.5px;
+  height: 600px;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 100px;
+  width: 100px;
+}
+#hTask1, #mTask1 {
+top: 590px; 
+left: 128px; 
+} 
+
+#hPPI8, #mPPI8 {
+top: 323px; 
+left: 182px; 
+} 
+
+#hTask2, #mTask2 {
+top: 281px; 
+left: 65px; 
+} 
+
+#hHandout1, #mHandout1 {
+top: 65px; 
+left: 278px; 
+} 
+
+#hHandout2, #mHandout2 {
+top: 182px; 
+left: 623px; 
+} 
+
+#hPPV9, #mPPV9 {
+top: 413px; 
+left: 653px; 
+} 
+
+#hPPI9, #mPPI9 {
+top: 635px; 
+left: 827px; 
+} 
+
+#hPPV10 {
+top: 713px; 
+left: 1223px; 
+} 
+
+#mPPV10 {
+top: 613px; 
+left: 923px; 
+} 
+
+
+#hTask3 {
+top: 599px; 
+left: 1400px; 
+}
+
+#mTask3 {
+top: 599px; 
+left: 1000px; 
+}
+
+ #hPPTRP1, #mPPTRP1 {
+top: 722px; 
+left: 95px; 
+} 
+
+#hPPTRP2, #mPPTRP2 {
+top: 497px; 
+left: 146px; 
+} 
+
+#hPPTRP3, #mPPTRP3 {
+top: 167px; 
+left: 86px; 
+} 
+
+#hPPTRP4, #mPPTRP4 {
+top: 7px; 
+left: 311px; 
+} 
+
+#hPPTRP5, #mPPTRP5 {
+top: 101px; 
+left: 662px; 
+} 
+
+#hPPTRP6, #mPPTRP6 {
+top: 344px; 
+left: 551px; 
+} 
+
+#hPPTRP7, #mPPTRP7 {
+top: 515px; 
+left: 830px; 
+} 
+
+#hPPTRP8 {
+top: 521px; 
+left: 1280px; 
+} 
+
+#mPPTRP8 {
+top: 521px; 
+left: 980px; 
+} 

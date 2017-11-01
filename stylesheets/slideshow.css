@@ -1,0 +1,45 @@
+.slides {
+    height: 600px;
+    margin: auto;
+}
+
+.left-arrows {
+    left: 6%;
+    cursor: pointer;
+}
+
+.right-arrows {
+    right: 6%;
+    cursor: pointer;
+}
+
+.right-arrows:hover {
+    transform: translateX(-10px);
+}
+
+.left-arrows:hover {
+    transform: translateX(10px)
+}
+
+.arrows {
+    color: rgba(0, 0, 0, .7);
+    top: 50%;
+    border-radius: 100px;
+    padding: 2px 17px;
+    background-color: #f14e32;
+    z-index: 1000;
+    /*transform: translateY(-50%);*/
+    margin: auto;
+    position: absolute;
+    transition: all .3s;
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+

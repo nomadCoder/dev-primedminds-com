@@ -1,0 +1,75 @@
+body {
+  background-color: #ffe900;
+}
+
+#background {
+  height: 900px;
+  width: 1500px;
+}
+
+#hkonigsberg {
+top: 365px; 
+left: 95px; 
+} 
+
+#hDC {
+top: 115px; 
+left: 530px; 
+}
+
+#hmessy {
+top: 630px; 
+left: 410px;  
+} 
+
+#hpigeonhole {
+top: 425px; 
+left: 840px; 
+} 
+
+#hhandshake {
+top: 205px; 
+left: 975px; 
+} 
+
+
+.hover {
+  position: absolute;
+  height: 140px;
+  width: 365px;
+  background-color: red;
+  opacity: 0.0;
+  z-index: 0;
+}
+
+.message {
+  position: absolute;
+  background-color: #ffe900;
+  margin: auto;
+  border-style: solid;
+  border-color: #DC2222;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px black;
+  visibility: hidden;
+  width: 1000px;
+  left: 250px;
+  height: 800px;
+  top: 50px;
+  z-index: 1;
+}
+
+p {
+  width: 900px;
+  font-size: 40px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}

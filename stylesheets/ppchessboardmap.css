@@ -1,0 +1,284 @@
+body {
+  background-color: #ffe900;
+}
+
+#background {
+  height: 100vh;
+  width: 166.67vh;
+  z-index: 1;
+}
+
+#flasher {
+  position: absolute;
+  height: calc(95vh / 9);
+  width: calc(75vh / 9);
+  background-color: #ffe900;
+  top: calc(88vh); 
+  left: 8vh; 
+  z-index: 2;
+}
+
+#backHome-container {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #7d7979;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+#backHome {
+    top: 27px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    display: block;
+    background-image: url("https://i.imgur.com/1rUjP5K.png");
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .3);
+    float: left;
+}
+
+#backHome-container:hover {
+    transform: scale(1.07);
+}
+
+.hover {
+  position: absolute;
+  height: 9vh;
+  width: 9vh;
+  //background-color: red;
+  opacity: 0.0;
+  z-index: 2;
+}
+
+.message {
+  position: absolute;
+  background-color: #ffe900;
+  width: calc(500vh / 9);
+  margin: auto;
+  border-style: solid;
+  border-color: #DC2222;
+  border-radius: 25px;
+  box-shadow: 0 0 30px black;
+  -moz-box-shadow: 0 0 30px black;
+  -webkit-box-shadow: 0 0 30px black;
+  visibility: hidden;
+  z-index: 3;
+}
+
+p {
+  width: 33.33vh;
+  font-size: 3.33vh;
+  padding: 5px;
+  text-decoration: none;
+  padding-left: 4.44vh;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#slideshow, #handout {
+  position: absolute;
+  right: 5.55vh;
+  top: 30%;
+  height: calc(62.5vh / 9);
+  width: calc(62.5vh / 9);
+}
+
+#video {
+  position: absolute;
+  right: 5.55vh;
+  top: 30%;
+  height: calc(62.5vh / 9);
+  width: calc(85vh / 9);
+}
+
+#video1 {
+  position: absolute;
+  right: 50px;
+  top: 15%;
+  height: calc(62.5vh / 9);
+  width: calc(85vh / 9);
+}
+
+#video2 {
+  position: absolute;
+  right: 50px;
+  top: 55%;
+  height: calc(62.5vh / 9);
+  width: calc(85vh / 9);
+}
+
+#interactive {
+  position: absolute;
+  right: 5.55vh;
+  top: 30%;
+  height: calc(62.5vh / 9);
+  width: calc(100vh / 9);
+}
+
+.openvideo {
+  height: calc(750vh / 9);
+  width: calc(1350vh / 9);
+  position: absolute;
+  background-color: #ffe900;
+  top: calc(100vh / 9);
+  left: calc(100vh / 9);
+  margin: auto;
+  border-style: solid;
+  border-color: #DC2222;
+  border-radius: 50px;
+  z-index: 4;
+}
+
+.video {
+  position: absolute;
+  top: calc(100vh / 9);
+  left: calc(125vh / 9);
+  width: calc(1067.5vh / 9);
+  height: calc(600vh / 9);
+}
+.close {
+  position: absolute;
+  top: calc(10vh / 9);
+  right: calc(10vh / 9);
+  height: calc(100vh / 9);
+  width: calc(100vh / 9);
+}
+
+#hHandout1, #mHandout1 {
+top: calc(687vh / 9); 
+left: calc(276vh / 9); 
+} 
+
+#hPPI4, #mPPI4 {
+top: calc(446vh / 9); 
+left: calc(246vh / 9); 
+} 
+
+#hPPV5, #mPPV5 {
+top: calc(269vh / 9); 
+left: calc(66vh / 9); 
+} 
+
+#hPPI5, #mPPI5 {
+top: calc(89vh / 9); 
+left: calc(246vh / 9); 
+} 
+
+#hHandout2, #mHandout2 {
+top: calc(41vh / 9); 
+left: calc(135vh / 9); 
+} 
+
+#hTask1, #mTask1 {
+top: calc(77vh / 9); 
+left: calc(555vh / 9); 
+} 
+
+#hHandout3, #mHandout3 {
+top: calc(245vh / 9); 
+left: calc(717vh / 9); 
+} 
+
+#hPPV6, #mPPV6 {
+top: calc(539vh / 9); 
+left: calc(648vh / 9); 
+} 
+
+#hHandout4, #mHandout4 {
+top: calc(683vh / 9); 
+left: calc(516vh / 9); 
+} 
+
+#hHandout5, #mHandout5 {
+top: calc(419vh / 9); 
+left: calc(1008vh / 9); 
+} 
+
+#hHandout6 {
+top: calc(746vh / 9); 
+left: calc(1176vh / 9); 
+} 
+
+#mHandout6 {
+top: calc(696vh / 9); 
+left: calc(976vh / 9); 
+} 
+
+#hPPTRC1, #mPPTRC1 {
+top: calc(764vh / 9); 
+left: calc(144vh / 9); 
+} 
+
+#hPPTRC2, #mPPTRC2 {
+top: calc(602vh / 9); 
+left: calc(336vh / 9); 
+} 
+
+#hPPTRC3, #mPPTRC3 {
+top: calc(11vh / 9); 
+left: calc(207vh / 9); 
+} 
+
+#hPPTRC4, #mPPTRC4 {
+top: calc(11vh / 9); 
+left: calc(651vh / 9); 
+} 
+
+#hPPTRC5, #mPPTRC5 {
+top: calc(260vh / 9); 
+left: calc(642vh / 9); 
+} 
+
+#hPPTRC6, #mPPTRC6 {
+top: calc(326vh / 9); 
+left: calc(693vh / 9); 
+} 
+
+#hPPTRC7, #mPPTRC7 {
+top: calc(596vh / 9); 
+left: calc(720vh / 9); 
+} 
+
+#hPPTRC8, #mPPTRC8 {
+top: calc(749vh / 9); 
+left: calc(450vh / 9); 
+} 
+
+#hPPTRC9 {
+top: calc(386vh / 9); 
+left: calc(1074vh / 9); 
+} 
+
+#mPPTRC9 {
+  top: calc(386vh / 9); 
+  left: calc(1000vh / 9);
+}
+
+#hPPTRC10 {
+top: calc(680vh / 9); 
+left: calc(1098vh / 9); 
+} 
+
+#mPPTRC10 {
+top: calc(680vh / 9); 
+left: calc(898vh / 9); 
+} 
+
+#hPPTRC11, #mPPTRC11 {
+top: calc(719vh / 9); 
+left: calc(666vh / 9); 
+} 

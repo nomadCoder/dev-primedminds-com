@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PP Chessboard Map</title>
+  <link rel="stylesheet" href="../stylesheets/ppchessboardmap.css">
+      <script src="../javascript/mapcode.js"></script>
+
+
+</head>
+<body onload="flash()">
+  <div id='backHome-container'>
+        <a href='resources.html'>
+            <div id='backHome'></div>
+        Back to Resources </a> 
+    </div> 
+  <img id="background" onclick="getlocations(event)" src="/assets/maps/PPChessboardMap.png" alt="PP Chessboard Map"> </img>
+
+
+<div class="hover" id="hHandout1" onmouseover="sethm('hHandout1', 'mHandout1')"></div>
+<a href="https://www.dropbox.com/sh/cedy1ru54kznlrg/AAAAsSJ5ybEMsqDQ-hLytKwta/Chessboard1.pdf?dl=0" target="_blank" <div class="message" id="mHandout1" onmouseout="hide()" onmouseover="sethm('hHandout1', 'mHandout1')"><p>Set up handout</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hPPI4" onmouseover="sethm('hPPI4', 'mPPI4')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI4" target="_blank" <div class="message" id="mPPI4" onmouseout="hide()" onmouseover="sethm('hPPI4', 'mPPI4')"><p>Interactive version of the main challenge</p><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img></div></a>
+<div class="hover" id="hPPV5" onmouseover="sethm('hPPV5', 'mPPV5')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV5" target="_blank" <div class="message" id="mPPV5" onmouseout="hide()" onmouseover="sethm('hPPV5', 'mPPV5')"><p>Making changes</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div class="hover" id="hPPI5" onmouseover="sethm('hPPI5', 'mPPI5')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI5" target="_blank" <div class="message" id="mPPI5" onmouseout="hide()" onmouseover="sethm('hPPI5', 'mPPI5')"><p>Make changes yourself</p><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img></div></a>
+<div class="hover" id="hHandout2" onmouseover="sethm('hHandout2', 'mHandout2')"></div>
+<a href="https://www.dropbox.com/sh/cedy1ru54kznlrg/AABTukLQ0u9C_67uc8m8zamXa/Chessboard2.pdf?dl=0" target="_blank" <div class="message" id="mHandout2" onmouseout="hide()" onmouseover="sethm('hHandout2', 'mHandout2')"><p>A guide to tinkering with the problem</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hTask1" onmouseover="sethm('hTask1', 'mTask1')"></div>
+<a href="https://www.dropbox.com/sh/96p2k0740y24gso/AADFKyLZUEDm0M4Ozdga0CF3a?dl=0&preview=Chessboard1.pdf" target="_blank" <div class="message" id="mTask1" onmouseout="hide()" onmouseover="sethm('hTask1', 'mTask1')"><p>Class brainstorming session</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hHandout3" onmouseover="sethm('hHandout3', 'mHandout3')"></div>
+<a href="https://www.dropbox.com/sh/cedy1ru54kznlrg/AAD1mgzM1gAeqnQqqUl5R8Gea/Chessboard3.pdf?dl=0" target="_blank" <div class="message" id="mHandout3" onmouseout="hide()" onmouseover="sethm('hHandout3', 'mHandout3')"><p>Make sense of our observations</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hPPV6" onmouseover="sethm('hPPV6', 'mPPV6')"></div>
+<a href="https://www.dropbox.com/sh/cedy1ru54kznlrg/AADZWaIdW5ii6EsMPEk6qZA-a/Chessboard4.pdf?dl=0" target="_blank" <div class="message" id="mPPV6" onmouseout="hide()" onmouseover="sethm('hPPV6', 'mPPV6')"><p>Some insights explained</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div class="hover" id="hHandout4" onmouseover="sethm('hHandout4', 'mHandout4')"></div>
+<a href="https://www.dropbox.com/sh/cedy1ru54kznlrg/AADG23rLs2mI-CjSs-ag3jA7a/Chessboard5.pdf?dl=0" target="_blank" <div class="message" id="mHandout4" onmouseout="hide()" onmouseover="sethm('hHandout4', 'mHandout4')"><p>The world around you</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hHandout5" onmouseover="sethm('hHandout5', 'mHandout5')"></div>
+<a href="https://www.dropbox.com/sh/cedy1ru54kznlrg/AABbg0BeGgDYLqQGAzzINavza/Chessboard6.pdf?dl=0" target="_blank" <div class="message" id="mHandout5" onmouseout="hide()" onmouseover="sethm('hHandout5', 'mHandout5')"><p>Removing more squares</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hHandout6" onmouseover="sethm('hHandout6', 'mHandout6')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV6" target="_blank" <div class="message" id="mHandout6" onmouseout="hide()" onmouseover="sethm('hHandout6', 'mHandout6')"><p>Not dominoes, trominoes!</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hPPTRC1" onmouseover="sethm('hPPTRC1', 'mPPTRC1')"></div>
+<div class="message" id="mPPTRC1" onmousedown="openvideo('vPPTRC1')" onmouseout="hide()" onmouseover="sethm('hPPTRC1', 'mPPTRC1')"><p>Overview</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRC1" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/7NU8S_IYTFA" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRC1')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRC2" onmouseover="sethm('hPPTRC2', 'mPPTRC2')"></div>
+<div class="message" id="mPPTRC2" onmousedown="openvideo('vPPTRC2')" onmouseout="hide()" onmouseover="sethm('hPPTRC2', 'mPPTRC2')"><p>Like investigating a bank robbery</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRC2" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/6jcPLg3mOO8" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRC2')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRC3" onmouseover="sethm('hPPTRC3', 'mPPTRC3')"></div>
+<div class="message" id="mPPTRC3" onmousedown="openvideo('vPPTRC3')" onmouseout="hide()" onmouseover="sethm('hPPTRC3', 'mPPTRC3')"><p>Tinkering with the problem</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRC3" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/h67rkg04zrA" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRC3')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRC4" onmouseover="sethm('hPPTRC4', 'mPPTRC4')"></div>
+<div class="message" id="mPPTRC4" onmousedown="openvideo('vPPTRC4')" onmouseout="hide()" onmouseover="sethm('hPPTRC4', 'mPPTRC4')"><p>Let THEM brainstorm</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRC4" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/27y6ah0hTrg" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRC4')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRC5" onmouseover="sethm('hPPTRC5', 'mPPTRC5')"></div>
+<div class="message" id="mPPTRC5" onmousedown="openvideo('vPPTRC5')" onmouseout="hide()" onmouseover="sethm('hPPTRC5', 'mPPTRC5')"><p>Pay careful attention</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRC5" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/qlVDeXOYDro" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRC5')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRC6" onmouseover="sethm('hPPTRC6', 'mPPTRC6')"></div>
+<div class="message" id="mPPTRC6" onmouseout="hide()" onmouseover="sethm('hPPTRC6', 'mPPTRC6')"><p>Start simple and iterate.<br><br>Danny MacAskil video for real life example of where persistence can get you</p><img onmousedown="openvideo('vPPTRC6')" id="video1" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><img onmousedown="openvideo('dannymcaskill')" id="video2" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRC6" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/V6t6LJuos0U" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRC6')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div id="dannymcaskill" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/Z19zFlPah-o" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('dannymcaskill')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRC7" onmouseover="sethm('hPPTRC7', 'mPPTRC7')"></div>
+<div class="message" id="mPPTRC7" onmousedown="openvideo('vPPTRC7')" onmouseout="hide()" onmouseover="sethm('hPPTRC7', 'mPPTRC7')"><p>Speedy students</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRC7" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/rP5ZAmXDUFY" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRC7')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRC8" onmouseover="sethm('hPPTRC8', 'mPPTRC8')"></div>
+<div class="message" id="mPPTRC8" onmousedown="openvideo('vPPTRC8')" onmouseout="hide()" onmouseover="sethm('hPPTRC8', 'mPPTRC8')"><p>General summary</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRC8" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/DFSLClRvFNg" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRC8')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRC9" onmouseover="sethm('hPPTRC9', 'mPPTRC9')"></div>
+<div class="message" id="mPPTRC9" onmousedown="openvideo('vPPTRC9')" onmouseout="hide()" onmouseover="sethm('hPPTRC9', 'mPPTRC9')"><p>Divvying up cake</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRC9" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/2Lo-saJocLQ" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRC9')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRC10" onmouseover="sethm('hPPTRC10', 'mPPTRC10')"></div>
+<div class="message" id="mPPTRC10" onmousedown="openvideo('vPPTRC10')" onmouseout="hide()" onmouseover="sethm('hPPTRC10', 'mPPTRC10')"><p>Applying what we've learnt more generally</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRC10" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/kT12GXPjZC8" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRC10')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRC11" onmouseover="sethm('hPPTRC11', 'mPPTRC11')"></div>
+<div class="message" id="mPPTRC11" onmousedown="openvideo('vPPTRC11')" onmouseout="hide()" onmouseover="sethm('hPPTRC11', 'mPPTRC11')"><p>Show the inductive argument</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRC11" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/rm8c8TfPakc" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRC11')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div id="flasher></div>  
+    
+</body>
+    <script src="../javascript/flasher.js"></script>
+</html>

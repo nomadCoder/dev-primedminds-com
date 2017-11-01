@@ -1,0 +1,347 @@
+body {
+  background-color: #ffe900;
+}
+
+#backHome-container {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #7d7979;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+#backHome {
+    top: 27px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    display: block;
+    background-image: url("https://i.imgur.com/1rUjP5K.png");
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .3);
+    float: left;
+}
+
+#backHome-container:hover {
+    transform: scale(1.07);
+}
+
+#background {
+  height: 900px;
+  width: 1500px;
+  z-index: 1;
+}
+
+.hover {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  //background-color: red;
+  opacity: 0.0;
+  z-index: 2;
+}
+
+.message {
+  position: absolute;
+  background-color: #ffe900;
+  width: 500px;
+  margin: auto;
+  border-style: solid;
+  border-color: #DC2222;
+  border-radius: 25px;
+   box-shadow: 0 0 30px black;
+  -moz-box-shadow: 0 0 30px black;
+  -webkit-box-shadow: 0 0 30px black;
+  visibility: hidden;
+  z-index: 3;
+}
+
+p {
+  width: 300px;
+  font-size: 30px;
+  padding: 5px;
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#slideshow, #handout {
+  position: absolute;
+  right: 50px;
+  top: 30%;
+  height: 62.5px;
+  width: 62.5px;
+}
+
+#video {
+  position: absolute;
+  right: 50px;
+  top: 30%;
+  height: 62.5px;
+  width: 85px;
+}
+
+#interactive {
+  position: absolute;
+  right: 50px;
+  top: 30%;
+  height: 62.5px;
+  width: 100px;
+}
+
+.openvideo {
+  height: 750px;
+  width: 1350px;
+  position: absolute;
+  background-color: #ffe900;
+  top: 100px;
+  left: 100px;
+  margin: auto;
+  border-style: solid;
+  border-color: #DC2222;
+  border-radius: 50px;
+  z-index: 4;
+}
+
+.video {
+  position: absolute;
+  top: 100px;
+  left: 125px;
+  width: 1067.5px;
+  height: 600px;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 100px;
+  width: 100px;
+}
+#hHandout1, #mHandout1 {
+top: 104px; 
+left: 549px; 
+} 
+
+#hPPS31, #mPPS31 {
+top: 233px; 
+left: 465px; 
+} 
+
+#hPPS32, #mPPS32 {
+top: 245px; 
+left: 300px; 
+} 
+
+#hTask1, #mTask1 {
+top: 323px; 
+left: 174px; 
+} 
+
+#hPPI6, #mPPI6 {
+top: 542px; 
+left: 141px; 
+} 
+
+#hHandout2, #mHandout2 {
+top: 620px; 
+left: 36px; 
+} 
+
+#hTask2, #mTask2 {
+top: 758px; 
+left: 237px; 
+} 
+
+#hPPV6B {
+top: 806px; 
+left: 399px; 
+}
+
+#mPPV6B {
+top: 706px; 
+left: 399px; 
+} 
+
+#hTask3 {
+top: 812px; 
+left: 561px; 
+} 
+
+#mTask3 {
+top: 762px; 
+left: 561px; 
+} 
+
+#hTask4 {
+top: 800px; 
+left: 750px; 
+} 
+
+#mTask4 {
+top: 700px; 
+left: 750px; 
+}
+
+#hWarning {
+top: 779px; 
+left: 933px; 
+} 
+
+#mWarning {
+top: 629px; 
+left: 933px; 
+} 
+
+#hHandout3 {
+top: 680px; 
+left: 1023px; 
+} 
+
+#mHandout3 {
+top: 680px; 
+left: 923px; 
+} 
+
+#hPPV7, #mPPV7 {
+top: 539px; 
+left: 771px; 
+} 
+
+#hTask5, #mTask5 {
+top: 461px; 
+left: 870px; 
+} 
+
+#hPPI7, #mPPI7 {
+top: 407px; 
+left: 813px; 
+} 
+
+#hPPV81, #mPPV81 {
+top: 335px; 
+left: 645px; 
+} 
+
+#hHandout4, #mHandout4 {
+top: 221px; 
+left: 684px; 
+} 
+
+#hPPV82, #mPPV82 {
+top: 86px; 
+left: 750px; 
+} 
+
+#hTask6, #mTask6 {
+top: 119px; 
+left: 882px; 
+} 
+
+#hTask7 {
+top: 56px; 
+left: 1044px; 
+} 
+
+#mTask7 {
+top: 56px; 
+left: 944px; 
+} 
+
+#hPPTRMM1, #mPPTRMM1 {
+top: 11px; 
+left: 545px; 
+} 
+
+#hPPTRMM2, #mPPTRMM2 {
+top: 191px; 
+left: 383px; 
+} 
+
+#hPPTRMM3, #mPPTRMM3 {
+top: 263px; 
+left: 122px; 
+} 
+
+#hPPTRMM4, #mPPTRMM4 {
+top: 473px; 
+left: 62px; 
+} 
+
+#hPPTRMM5, #mPPTRMM5 {
+top: 713px; 
+left: 68px; 
+} 
+
+#hPPTRMM6, #mPPTRMM6 {
+top: 674px; 
+left: 257px; 
+} 
+
+#hPPTRMM7, #mPPTRMM7 {
+top: 734px; 
+left: 425px; 
+} 
+
+#hPPTRMM8 {
+top: 743px; 
+left: 596px; 
+} 
+
+#mPPTRMM8 {
+top: 643px; 
+left: 596px; 
+} 
+
+#hPPTRMM9, #mPPTRMM9 {
+top: 722px; 
+left: 716px; 
+} 
+
+#hPPTRMM10, #mPPTRMM10 {
+top: 638px; 
+left: 959px; 
+} 
+
+#hPPTRMM11, #mPPTRMM11 {
+top: 557px; 
+left: 689px; 
+} 
+
+#hPPTRMM12, #mPPTRMM12 {
+top: 395px; 
+left: 887px; 
+} 
+
+#hPPTRMM13, #mPPTRMM13 {
+top: 278px; 
+left: 764px; 
+} 
+
+#hPPTRMM14, #mPPTRMM14 {
+top: 104px; 
+left: 956px; 
+} 
+
+#hPPTRMM15 {
+top: 122px; 
+left: 1073px; 
+} 
+
+#mPPTRMM15 {
+top: 122px; 
+left: 973px; 
+} 

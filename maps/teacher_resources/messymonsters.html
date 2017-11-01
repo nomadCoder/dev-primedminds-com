@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Messy Monster Map</title>
+       <link rel="stylesheet" href="../../stylesheets/messymonsters.css">
+    <script src="../../javascript/header.js"></script>
+    <script src="../../javascript/mapcode.js"></script>
+
+</head>
+<body onload="flash()">
+  <div id='backHome-container'>
+        <a href='../../resources.html'>
+            <div id='backHome'></div>
+        Back to Resources </a> 
+    </div> 
+
+  <img id="background" onclick="getlocations(event)" src="https://trello-attachments.s3.amazonaws.com/5877b048233b368f5368e436/58c06651187c83189be5df15/b497b88546ac2bc34af3c15ba7d6aa55/PPMessyMonsterMap.png" alt="Messy Monster Map"> </img>
+
+  
+<div class="hover" id="hPPS31" onmouseover="sethm('hPPS31', 'mPPS31')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPS3" target="_blank" <div class="message" id="mPPS31" onmouseout="hide()" onmouseover="sethm('hPPS31', 'mPPS31')"><p>Slideshow. Stop on "Do you?" slide</p><img id="slideshow" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/e9e559548f9caa00417545b5b7dba2e9/Slideshow.png"</img></div></a>
+<div class="hover" id="hHandout1" onmouseover="sethm('hHandout1', 'mHandout1')"></div>
+<a href="../../assets/teacher_resources/PPExploration/Handouts/MessyMonsters1.pdf?dl=0" target="_blank" <div class="message" id="mHandout1" onmouseout="hide()" onmouseover="sethm('hHandout1', 'mHandout1')"><p>Have a go! Just start trying</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hPPS32" onmouseover="sethm('hPPS32', 'mPPS32')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPS3" target="_blank" <div class="message" id="mPPS32" onmouseout="hide()" onmouseover="sethm('hPPS32', 'mPPS32')"><p>Flip through the rest of the slideshow</p><img id="slideshow" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/e9e559548f9caa00417545b5b7dba2e9/Slideshow.png"</img></div></a>
+<div class="hover" id="hTask1" onmouseover="sethm('hTask1', 'mTask1')"></div>
+<a href="../../assets/teacher_resources/PPExploration/Tasks/MessyMonsters1.pdf?dl=0" target="_blank" <div class="message" id="mTask1" onmouseout="hide()" onmouseover="sethm('hTask1', 'mTask1')"><p>Uncovering the Big Question</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+
+<div class="hover" id="hPPI6" onmouseover="sethm('hPPI6', 'mPPI6')"></div>
+<div class="message" id="mPPI6" onmouseout="hide()" onmousedown="openvideo('vPPI6')" onmouseover="sethm('hPPI6', 'mPPI6')"><p>Interactive rope path investigation</p><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img></div>
+<div id="vPPI6" class="openvideo" style="display:none;"><img class="video" src="../../assets/UnderConstruction.png" frameborder="0"></img><img class="close" onmousedown="closevideo('vPPI6')" src="../../assets/CloseWindow.png"></img></div>
+
+<div class="hover" id="hHandout2" onmouseover="sethm('hHandout2', 'mHandout2')"></div>
+<a href="../../assets/teacher_resources/PPExploration/Handouts/MessyMonsters2.pdf?dl=0" target="_blank" <div class="message" id="mHandout2" onmouseout="hide()" onmouseover="sethm('hHandout2', 'mHandout2')"><p>Even umbrellas</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hTask2" onmouseover="sethm('hTask2', 'mTask2')"></div>
+<a href="https://www.dropbox.com/sh/96p2k0740y24gso/AAD8P0E2Y_PRi_TSHqCLM8f4a/MessyMonsters2.pdf?dl=0" target="_blank" <div class="message" id="mTask2" onmouseout="hide()" onmouseover="sethm('hTask2', 'mTask2')"><p>Names of things</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+
+<div class="hover" id="hPPV6B" onmouseover="sethm('hPPV6B', 'mPPV6B')"></div>
+<div class="message" id="mPPV6B" onmouseout="hide()" onmousedown="openvideo('vPPV6B')" onmouseover="sethm('hPPV6B', 'mPPV6B')"><p>Video explaining the names</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div>
+<div id="vPPV6B" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/f79SjueqhoM" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPV6B')" src="../../assets/CloseWindow.png"></img></div>
+
+<div class="hover" id="hTask3" onmouseover="sethm('hTask3', 'mTask3')"></div>
+<a href="../../assets/teacher_resources/PPExploration/Tasks/MessyMonsters3.pdf?dl=0" target="_blank" <div class="message" id="mTask3" onmouseout="hide()" onmouseover="sethm('hTask3', 'mTask3')"><p>Real world examples</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hTask4" onmouseover="sethm('hTask4', 'mTask4')"></div>
+<a href="../../assets/teacher_resources/PPExploration/Tasks/MessyMonsters4.pdf?dl=0" target="_blank" <div class="message" id="mTask4" onmouseout="hide()" onmouseover="sethm('hTask4', 'mTask4')"><p>The Big Question in another language</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hWarning" onmouseover="sethm('hWarning', 'mWarning')"></div>
+<div class="message" id="mWarning" onmouseout="hide()" onmouseover="sethm('hWarning', 'mWarning')"><p>From here until the final stop in this Exploration, all umbrellas are EVEN</p></div>
+<div class="hover" id="hHandout3" onmouseover="sethm('hHandout3', 'mHandout3')"></div>
+<a href="../../assets/teacher_resources/PPExploration/Handouts/MessyMonsters3.pdf?dl=0" target="_blank" <div class="message" id="mHandout3" onmouseout="hide()" onmouseover="sethm('hHandout3', 'mHandout3')"><p>Simple cases</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+
+<div class="hover" id="hPPV7" onmouseover="sethm('hPPV7', 'mPPV7')"></div>
+<div class="message" id="mPPV7" onmouseout="hide()" onmousedown="openvideo('vPPV7')" onmouseover="sethm('hPPV7', 'mPPV7')"><p>Why so loopy?</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div>
+<div id="vPPV7" class="openvideo" style="display:none;"><img class="video" src="https://www.youtube.com/embed/1gV4Dclvg38" frameborder="0" allowfullscreen></img><img class="close" onmousedown="closevideo('vPPV7')" src="../../assets/CloseWindow.png"></img></div>
+
+<div class="hover" id="hTask5" onmouseover="sethm('hTask5', 'mTask5')"></div>
+<a href="../../assets/teacher_resources/PPExploration/Tasks/MessyMonsters5.pdf?dl=0" target="_blank" <div class="message" id="mTask5" onmouseout="hide()" onmouseover="sethm('hTask5', 'mTask5')"><p>Back to where we started?</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+
+<div class="hover" id="hPPI7" onmouseover="sethm('hPPI7', 'mPPI7')"></div>
+<div class="message" id="mPPI7" onmouseout="hide()" onmousedown="openvideo('vPPI7')" onmouseover="sethm('hPPI7', 'mPPI7')"><p>Loopy Interactive</p><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img></div>
+<div id="vPPI7" class="openvideo" style="display:none;"><iframe class="video" src="../../assets/UnderConstruction.png" frameborder="0"></iframe><img class="close" onmousedown="closevideo('vPPI7')" src="../../assets/CloseWindow.png"></img></div>
+
+<div class="hover" id="hPPV81" onmouseover="sethm('hPPV81', 'mPPV81')"></div>
+<div class="message" id="mPPV81" onmouseout="hide()" onmousedown="openvideo('vPPV81')" onmouseover="sethm('hPPV81', 'mPPV81')"><p>Why loops exist: play up to 1:10 min</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div>
+<div id="vPPV81" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/nlGLZRmv8fw" frameborder="0"></iframe><img class="close" onmousedown="closevideo('vPPV81')" src="../../assets/CloseWindow.png"></img></div>
+
+<div class="hover" id="hHandout4" onmouseover="sethm('hHandout4', 'mHandout4')"></div>
+<a href="../../assets/teacher_resources/PPExploration/Handouts/MessyMonsters4.pdf?dl=0" target="_blank" <div class="message" id="mHandout4" onmouseout="hide()" onmouseover="sethm('hHandout4', 'mHandout4')"><p>Induction argument</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+
+<div class="hover" id="hPPV82" onmouseover="sethm('hPPV82', 'mPPV82')"></div>
+<div class="message" id="mPPV82" onmouseout="hide()" onmousedown="openvideo('vPPV82')" onmouseover="sethm('hPPV82', 'mPPV82')"><p>Walking through the induction: play from 1:10 min to 3:10 min</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div>
+<div id="vPPV82" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/nlGLZRmv8fw" frameborder="0"></iframe><img class="close" onmousedown="closevideo('vPPV82')" src="../../assets/CloseWindow.png"></img></div>
+
+<div class="hover" id="hTask6" onmouseover="sethm('hTask6', 'mTask6')"></div>
+<a href="../../assets/teacher_resources/PPExploration/Tasks/MessyMonsters6.pdf?dl=0" target="_blank" <div class="message" id="mTask6" onmouseout="hide()" onmouseover="sethm('hTask6', 'mTask6')"><p>Induction in life</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+<div class="hover" id="hTask7" onmouseover="sethm('hTask7', 'mTask7')"></div>
+<a href="../../assets/teacher_resources/PPExploration/Tasks/MessyMonsters7.pdf?dl=0" target="_blank" <div class="message" id="mTask7" onmouseout="hide()" onmouseover="sethm('hTask7', 'mTask7')"><p>Returning to two odd umbrellas</p><img id="handout" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/d7c36dc6e788bba2bdf111409443170f/DownloadLogo.png"</img></div></a>
+  
+<div class="hover" id="hPPTRMM1" onmouseover="sethm('hPPTRMM1', 'mPPTRMM1')"></div>
+<div class="message" id="mPPTRMM1" onmousedown="openvideo('vPPTRMM1')" onmouseout="hide()" onmouseover="sethm('hPPTRMM1', 'mPPTRMM1')"><p>Overview</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM1" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/xoCxAT2FE2w" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM1')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM2" onmouseover="sethm('hPPTRMM2', 'mPPTRMM2')"></div>
+<div class="message" id="mPPTRMM2" onmousedown="openvideo('vPPTRMM2')" onmouseout="hide()" onmouseover="sethm('hPPTRMM2', 'mPPTRMM2')"><p>Breaking down like a mathematician</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM2" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/7Ll0KdzuC7k" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM2')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM3" onmouseover="sethm('hPPTRMM3', 'mPPTRMM3')"></div>
+<div class="message" id="mPPTRMM3" onmousedown="openvideo('vPPTRMM3')" onmouseout="hide()" onmouseover="sethm('hPPTRMM3', 'mPPTRMM3')"><p>We know who's holding the ends, but how is it laid out?</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM3" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/kdAg47LFp18" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM3')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM4" onmouseover="sethm('hPPTRMM4', 'mPPTRMM4')"></div>
+<div class="message" id="mPPTRMM4" onmousedown="openvideo('vPPTRMM4')" onmouseout="hide()" onmouseover="sethm('hPPTRMM4', 'mPPTRMM4')"><p>Searching for problems</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM4" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/PuFO__S1B7E" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM4')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM5" onmouseover="sethm('hPPTRMM5', 'mPPTRMM5')"></div>
+<div class="message" id="mPPTRMM5" onmousedown="openvideo('vPPTRMM5')" onmouseout="hide()" onmouseover="sethm('hPPTRMM5', 'mPPTRMM5')"><p>Tying your rope in a knot</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM5" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/yOB6tjoXpNI" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM5')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM6" onmouseover="sethm('hPPTRMM6', 'mPPTRMM6')"></div>
+<div class="message" id="mPPTRMM6" onmousedown="openvideo('vPPTRMM6')" onmouseout="hide()" onmouseover="sethm('hPPTRMM6', 'mPPTRMM6')"><p>Speaking the same language is important</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM6" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/A8QWCzJgSWM" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM6')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM7" onmouseover="sethm('hPPTRMM7', 'mPPTRMM7')"></div>
+<div class="message" id="mPPTRMM7" onmousedown="openvideo('vPPTRMM7')" onmouseout="hide()" onmouseover="sethm('hPPTRMM7', 'mPPTRMM7')"><p>A video dictionary</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM7" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/D_XVKEuwMHA" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM7')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM8" onmouseover="sethm('hPPTRMM8', 'mPPTRMM8')"></div>
+<div class="message" id="mPPTRMM8" onmousedown="openvideo('vPPTRMM8')" onmouseout="hide()" onmouseover="sethm('hPPTRMM8', 'mPPTRMM8')"><p>Six degrees of separation and coloring maps</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM8" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/3PHiI0Oqw9g" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM8')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM9" onmouseover="sethm('hPPTRMM9', 'mPPTRMM9')"></div>
+<div class="message" id="mPPTRMM9" onmousedown="openvideo('vPPTRMM9')" onmouseout="hide()" onmouseover="sethm('hPPTRMM9', 'mPPTRMM9')"><p>Abstracting the question</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM9" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/sGsrMt9YtGk" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM9')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM10" onmouseover="sethm('hPPTRMM10', 'mPPTRMM10')"></div>
+<div class="message" id="mPPTRMM10" onmousedown="openvideo('vPPTRMM10')" onmouseout="hide()" onmouseover="sethm('hPPTRMM10', 'mPPTRMM10')"><p>One rope segment, two rope segments</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM10" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/F-WQvjvrfuw" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM10')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM11" onmouseover="sethm('hPPTRMM11', 'mPPTRMM11')"></div>
+<div class="message" id="mPPTRMM11" onmousedown="openvideo('vPPTRMM11')" onmouseout="hide()" onmouseover="sethm('hPPTRMM11', 'mPPTRMM11')"><p>Stop and paraphrase</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM11" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/sx169Py1s34" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM11')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM12" onmouseover="sethm('hPPTRMM12', 'mPPTRMM12')"></div>
+<div class="message" id="mPPTRMM12" onmousedown="openvideo('vPPTRMM12')" onmouseout="hide()" onmouseover="sethm('hPPTRMM12', 'mPPTRMM12')"><p>Why so loopy?</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM12" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/dPiYHm2Ha_U" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM12')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM13" onmouseover="sethm('hPPTRMM13', 'mPPTRMM13')"></div>
+<div class="message" id="mPPTRMM13" onmousedown="openvideo('vPPTRMM13')" onmouseout="hide()" onmouseover="sethm('hPPTRMM13', 'mPPTRMM13')"><p>Induction, the crux of the sequence</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM13" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/FlJT5R_bHvs" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM13')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM14" onmouseover="sethm('hPPTRMM14', 'mPPTRMM14')"></div>
+<div class="message" id="mPPTRMM14" onmousedown="openvideo('vPPTRMM14')" onmouseout="hide()" onmouseover="sethm('hPPTRMM14', 'mPPTRMM14')"><p>Yawning and viral videos, induction in the real world</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM14" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/AY9XAPMW9F0" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM14')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>
+<div class="hover" id="hPPTRMM15" onmouseover="sethm('hPPTRMM15', 'mPPTRMM15')"></div>
+<div class="message" id="mPPTRMM15" onmousedown="openvideo('vPPTRMM15')" onmouseout="hide()" onmouseover="sethm('hPPTRMM15', 'mPPTRMM15')"><p>The two odd case</p><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img></div></a>
+<div id="vPPTRMM15" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/iFXQzHRES5I" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRMM15')" src="http://closethegapca.org/wp-content/plugins/itro-popup/images/close-icon.png"></img></div>  
+</body>

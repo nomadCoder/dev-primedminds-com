@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PP Exploration Map</title>
+  <link rel="stylesheet" href="stylesheets/ppexploration.css">
+  <script src="javascript/header.js"></script>
+</head>
+<body onload="flash()">
+  
+  <div id='backHome-container'>
+        <a href='explorations.html'>
+            <div id='backHome'></div>
+        Back to Explorations </a> 
+    </div> 
+
+  <img id="background" onclick="getlocations(event)" onmouseover="hide()" src="https://trello-attachments.s3.amazonaws.com/5877b048233b368f5368e436/58c06651187c83189be5df15/026c7fe71fdada883a7c97251a4f7f5d/PPMap.png" alt="PP Map"> </img>
+
+  
+<div class="hover" id="hPPV1" onmouseover="sethm('hPPV1', 'mPPV1')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV1" target="_blank" <div class="message" id="mPPV1" onmouseout="hide()" onmouseover="sethm('hPPV1', 'mPPV1')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Konigsberg Intro:</span> Introduces the Bridges of Konigsberg problem.</p></div></a>
+<div class="hover" id="hPPI1" onmouseover="sethm('hPPI1', 'mPPI1')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI1" target="_blank" <div class="message" id="mPPI1" onmouseout="hide()" onmouseover="sethm('hPPI1', 'mPPI1')"><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img><p><span>Konigsberg Interactive</span></p></div></a>
+<div class="hover" id="hPPV2" onmouseover="sethm('hPPV2', 'mPPV2')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV2" target="_blank" <div class="message" id="mPPV2" onmouseout="hide()" onmouseover="sethm('hPPV2', 'mPPV2')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Konigsberg Tweak:</span> Exploring changes to the Bridges of Konigsberg problem.</p></div></a>
+<div class="hover" id="hPPI2" onmouseover="sethm('hPPI2', 'mPPI2')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI2" target="_blank" <div class="message" id="mPPI2" onmouseout="hide()" onmouseover="sethm('hPPI2', 'mPPI2')"><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img><p><span>Konigsberg Tweak Interactive</span></p></div></a>
+<div class="hover" id="hPPV3" onmouseover="sethm('hPPV3', 'mPPV3')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV3" target="_blank" <div class="message" id="mPPV3" onmouseout="hide()" onmouseover="sethm('hPPV3', 'mPPV3')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Try Some Monsters:</span> Where to find insight into the Bridges of Konigsberg problem?</p></div></a>
+<div class="hover" id="hPPS3" onmouseover="sethm('hPPS3', 'mPPS3')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPS3" target="_blank" <div class="message" id="mPPS3" onmouseout="hide()" onmouseover="sethm('hPPS3', 'mPPS3')"><img id="slideshow" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/e9e559548f9caa00417545b5b7dba2e9/Slideshow.png"</img><p><span>Messy Monsters:</span> Some Monsters offer insight.</p></div></a>
+<div class="hover" id="hPPV4" onmouseover="sethm('hPPV4', 'mPPV4')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV4" target="_blank" <div class="message" id="mPPV4" onmouseout="hide()" onmouseover="sethm('hPPV4', 'mPPV4')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Monsters In Konigsberg & Domino Intro:</span> Monsters take to the streets of Konigsberg to help solve the famous problem. Then, a new problem is introduced, involving a chessboard and dominoes.</p></div></a>
+<div class="hover" id="hPPI4" onmouseover="sethm('hPPI4', 'mPPI4')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI4" target="_blank" <div class="message" id="mPPI4" onmouseout="hide()" onmouseover="sethm('hPPI4', 'mPPI4')"><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img><p><span>Chessboard Interactive</span></p></div></a>
+<div class="hover" id="hPPV5" onmouseover="sethm('hPPV5', 'mPPV5')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV5" target="_blank" <div class="message" id="mPPV5" onmouseout="hide()" onmouseover="sethm('hPPV5', 'mPPV5')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Domino Tweak:</span> How we might tweak our Chessboard Interactive.</p></div></a>
+<div class="hover" id="hPPI5" onmouseover="sethm('hPPI5', 'mPPI5')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI5" target="_blank" <div class="message" id="mPPI5" onmouseout="hide()" onmouseover="sethm('hPPI5', 'mPPI5')"><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img><p><span>Chessboard Interactive Tweaked</span></p></div></a>
+<div class="hover" id="hPPV6" onmouseover="sethm('hPPV6', 'mPPV6')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV6" target="_blank" <div class="message" id="mPPV6" onmouseout="hide()" onmouseover="sethm('hPPV6', 'mPPV6')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Dominoes Explained:</span> Explains the insights you might have observed in the last Interactive.</p></div></a>
+<div class="hover" id="hPPV6B" onmouseover="sethm('hPPV6B', 'mPPV6B')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV6B" target="_blank" <div class="message" id="mPPV6B" onmouseout="hide()" onmouseover="sethm('hPPV6B', 'mPPV6B')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Konigsberg Graph</span>: Describes how the Bridges of Konigsberg and Messy Monsters with Umbrellas are really both different views of the same mathematical object called a graph.</p></div></a>
+<div class="hover" id="hCableCar" onmouseover="sethm('hCableCar', 'mCableCar')"></div>
+<div class="message" id="mCableCar" onmouseout="hide()" onmouseover="sethm('hCableCar', 'mCableCar')"><p id="cablecar">A shortcut to avoid the most intricate part of this Exploration. If you're feeling lost, by all means use this, but you will miss a truly beautiful piece of mathematics.</p></div>
+<div class="hover" id="hPPI6" onmouseover="sethm('hPPI6', 'mPPI6')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI6" target="_blank" <div class="message" id="mPPI6" onmouseout="hide()" onmouseover="sethm('hPPI6', 'mPPI6')"><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img><p><span>Monsters with Umbrellas Interactive</span></p></div></a>
+<div class="hover" id="hPPV7" onmouseover="sethm('hPPV7', 'mPPV7')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV7" target="_blank" <div class="message" id="mPPV7" onmouseout="hide()" onmouseover="sethm('hPPV7', 'mPPV7')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Loops:</span> Examines loops in problems related to the Bridges of Konigsberg and Messy Monsters with Umbrellas. Specifically mathematical loops in their corresponding graphs.</p></div></a>
+<div class="hover" id="hPPI7" onmouseover="sethm('hPPI7', 'mPPI7')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI7" target="_blank" <div class="message" id="mPPI7" onmouseout="hide()" onmouseover="sethm('hPPI7', 'mPPI7')"><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img><p><span>Loopy Monsters Interactive</span></p></div></a>
+<div class="hover" id="hPPV8" onmouseover="sethm('hPPV8', 'mPPV8')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV8" target="_blank" <div class="message" id="mPPV8" onmouseout="hide()" onmouseover="sethm('hPPV8', 'mPPV8')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Konigsberg Induction</span>: The beautiful induction argument that shows when problems like the Bridges of Konigsberg and Messy Monsters with Umbrellas can be solved. A pictorial argument involving graphs.</p></div></a>
+<div class="hover" id="hPPI8" onmouseover="sethm('hPPI8', 'mPPI8')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI8" target="_blank" <div class="message" id="mPPI8" onmouseout="hide()" onmouseover="sethm('hPPI8', 'mPPI8')"><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img><p><span>Monsters with Sox Interactive:</span> How many sox do you need for a pair?</p></div></a>
+<div class="hover" id="hPPV9" onmouseover="sethm('hPPV9', 'mPPV9')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV9" target="_blank" <div class="message" id="mPPV9" onmouseout="hide()" onmouseover="sethm('hPPV9', 'mPPV9')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Sox Explained:</span> A beautifully simple way of guaranteeing you can pick a pair of sox from your drawer, even if you happen to be a three-footed monster (in which case, obviously, you'll want a triple). </p></div></a>
+<div class="hover" id="hPPI9" onmouseover="sethm('hPPI9', 'mPPI9')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI9" target="_blank" <div class="message" id="mPPI9" onmouseout="hide()" onmouseover="sethm('hPPI9', 'mPPI9')"><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img><p><span>Pigeonhole Interactive</span></p></div></a>
+<div class="hover" id="hPPV10" onmouseover="sethm('hPPV10', 'mPPV10')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV10" target="_blank" <div class="message" id="mPPV10" onmouseout="hide()" onmouseover="sethm('hPPV10', 'mPPV10')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Pigeons Explained:</span> Describes what's going on when too many pigeons try to fit into a small pigeon roost. Otherwise known in mathematics as the Pigeonhole Principle.</p></div></a>
+<div class="hover" id="hPPI10" onmouseover="sethm('hPPI10', 'mPPI10')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI10" target="_blank" <div class="message" id="mPPI10" onmouseout="hide()" onmouseover="sethm('hPPI10', 'mPPI10')"><img id="interactive" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/1af7d7a92d06dc8f8efef7e5453de3d7/Interactive.png"</img><p><span>Handshaking Monsters Interactive</span></p></div></a>
+<div class="hover" id="hPPV11" onmouseover="sethm('hPPV11', 'mPPV11')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV11" target="_blank" <div class="message" id="mPPV11" onmouseout="hide()" onmouseover="sethm('hPPV11', 'mPPV11')"><img id="video" src="https://trello-attachments.s3.amazonaws.com/5876e9c0f121969aded8e887/58b3635cec93dac5f53a615b/022233acdb12774ae5c115a36d4de1e9/Video.png"</img><p class="videotext"><span>Handshaking Monsters Explained:</span> Explains what's happening when a bunch of monsters start shaking hands and what that has to do with pigeons. </p></div></a>
+<div id="flasher"></div>
+
+</body>
+  <script src="javascript/mapcode.js"> </script>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PP Handshake Map</title>
+  <link rel="stylesheet" href="stylesheets/pphandshakemap.css">
+    <script src="javascript/header.js"></script>
+
+</head>
+<body onload="flash()">
+  <div id='backHome-container'>
+        <a href='resources.html'>
+            <div id='backHome'></div>
+        Back to Resources </a> 
+    </div> 
+  <img id="background" onclick="getlocations(event)" src="/assets/maps/PPHandshakeMap.png" alt="PP Monster Handshake Map"> </img>
+
+<div class="hover" id="hTask1" onmouseover="sethm('hTask1', 'mTask1')"></div>
+<a href="/assets/maps/tasks/MonsterHandshake1.pdf" target="_blank" <div class="message" id="mTask1" onmouseout="hide()" onmouseover="sethm('hTask1', 'mTask1')"><p>In-class activity: handshaking!</p><img id="handout" src="/assets/maps/icons/DownloadIcon.png"</img></div></a>
+<div class="hover" id="hHandout1" onmouseover="sethm('hHandout1', 'mHandout1')"></div>
+<a href="/assets/maps/handouts/MonsterHandshake1.pdf" target="_blank" <div class="message" id="mHandout1" onmouseout="hide()" onmouseover="sethm('hHandout1', 'mHandout1')"><p>Simple cases handout.</p><img id="handout" src="/assets/maps/icons/DownloadIcon.png"</img></div></a>
+<div class="hover" id="hTask2" onmouseover="sethm('hTask2', 'mTask2')"></div>
+<a href="/assets/maps/tasks/MonsterHandshake2.pdf" target="_blank" <div class="message" id="mTask2" onmouseout="hide()" onmouseover="sethm('hTask2', 'mTask2')"><p>In-class challenge: special handshaking.</p><img id="handout" src="/assets/maps/icons/DownloadIcon.png"</img></div></a>
+<div class="hover" id="hPPI10" onmouseover="sethm('hPPI10', 'mPPI10')"></div>
+<a href="http://primedminds.com/pp_flow.html?s=PPI10" target="_blank" <div class="message" id="mPPI10" onmouseout="hide()" onmouseover="sethm('hPPI10', 'mPPI10')"><p>Interactive version of the in-class special handshaking challenge.</p><img id="interactive" src="/assets/maps/icons/InteractiveIcon.png"</img></div></a>
+<div class="hover" id="hHandout2" onmouseover="sethm('hHandout2', 'mHandout2')"></div>
+<a href="/assets/maps/handouts/MonsterHandshake2.pdf" target="_blank" <div class="message" id="mHandout2" onmouseout="hide()" onmouseover="sethm('hHandout2', 'mHandout2')"><p>What could go wrong handout.</p><img id="handout" src="/assets/maps/icons/DownloadIcon.png"</img></div></a>
+<div class="hover" id="hPPV11" onmouseover="sethm('hPPV11', 'mPPV11')"></div>
+<a href="http://primedminds.com/flow_video.html?s=PPV11" target="_blank" <div class="message" id="mPPV11" onmouseout="hide()" onmouseover="sethm('hPPV11', 'mPPV11')"><p>What's going on explanation.</p><img id="video" src="/assets/maps/icons/VideoIcon.png"</img></div></a>
+<div class="hover" id="hTask3" onmouseover="sethm('hTask3', 'mTask3')"></div>
+<a href="/assets/maps/tasks/MonsterHandshake3.pdf" target="_blank" <div class="message" id="mTask3" onmouseout="hide()" onmouseover="sethm('hTask3', 'mTask3')"><p>Magic 3's in-class pattern spotting.</p><img id="handout" src="/assets/maps/icons/DownloadIcon.png"</img></div></a>
+<div class="hover" id="hHandout3" onmouseover="sethm('hHandout3', 'mHandout3')"></div>
+<a href="/assets/maps/handouts/MonsterHandshake3.pdf" target="_blank" <div class="message" id="mHandout3" onmouseout="hide()" onmouseover="sethm('hHandout3', 'mHandout3')"><p>Magic 3's handout.</p><img id="handout" src="/assets/maps/icons/DownloadIcon.png"</img></div></a>
+<div class="hover" id="hTask4" onmouseover="sethm('hTask4', 'mTask4')"></div>
+<a href="/assets/maps/tasks/MonsterHandshake4.pdf" target="_blank" <div class="message" id="mTask4" onmouseout="hide()" onmouseover="sethm('hTask4', 'mTask4')"><p>Magic 3's Extension in-class pattern spotting.</p><img id="handout" src="/assets/maps/icons/DownloadIcon.png"</img></div></a>
+<div class="hover" id="hHandout4" onmouseover="sethm('hHandout4', 'mHandout4')"></div>
+<a href="/assets/maps/handouts/MonsterHandshake4.pdf" target="_blank" <div class="message" id="mHandout4" onmouseout="hide()" onmouseover="sethm('hHandout4', 'mHandout4')"><p>Magic 3's Extension handout.</p><img id="handout" src="/assets/maps/icons/DownloadIcon.png"</img></div></a>  
+<div class="hover" id="hPPTRH1" onmouseover="sethm('hPPTRH1', 'mPPTRH1')"></div>
+<div class="message" id="mPPTRH1" onmousedown="openvideo('vPPTRH1')" onmouseout="hide()" onmouseover="sethm('hPPTRH1', 'mPPTRH1')"><p>Overview</p><img id="video" src="/assets/maps/icons/VideoIcon.png"</img></div></a>
+<div id="vPPTRH1" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/vj_FsL6HeMg" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRH1')" src="/assets/maps/icons/CloseIcon.png"></img></div>
+<div class="hover" id="hPPTRH2" onmouseover="sethm('hPPTRH2', 'mPPTRH2')"></div>
+<div class="message" id="mPPTRH2" onmousedown="openvideo('vPPTRH2')" onmouseout="hide()" onmouseover="sethm('hPPTRH2', 'mPPTRH2')"><p>Getting to know one another</p><img id="video" src="/assets/maps/icons/VideoIcon.png"</img></div></a>
+<div id="vPPTRH2" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/WDyIafMJSlA" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRH2')" src="/assets/maps/icons/CloseIcon.png"></img></div>
+<div class="hover" id="hPPTRH3" onmouseover="sethm('hPPTRH3', 'mPPTRH3')"></div>
+<div class="message" id="mPPTRH3" onmousedown="openvideo('vPPTRH3')" onmouseout="hide()" onmouseover="sethm('hPPTRH3', 'mPPTRH3')"><p>Simple cases prompt more questions</p><img id="video" src="/assets/maps/icons/VideoIcon.png"</img></div></a>
+<div id="vPPTRH3" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/rTuBu7LUWnQ" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRH3')" src="/assets/maps/icons/CloseIcon.png"></img></div>
+<div class="hover" id="hPPTRH4" onmouseover="sethm('hPPTRH4', 'mPPTRH4')"></div>
+<div class="message" id="mPPTRH4" onmousedown="openvideo('vPPTRH4')" onmouseout="hide()" onmouseover="sethm('hPPTRH4', 'mPPTRH4')"><p>Trying to break the problem</p><img id="video" src="/assets/maps/icons/VideoIcon.png"</img></div></a>
+<div id="vPPTRH4" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/F3A-q_EPymA" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRH4')" src="/assets/maps/icons/CloseIcon.png"></img></div>
+<div class="hover" id="hPPTRH5" onmouseover="sethm('hPPTRH5', 'mPPTRH5')"></div>
+<div class="message" id="mPPTRH5" onmousedown="openvideo('vPPTRH5')" onmouseout="hide()" onmouseover="sethm('hPPTRH5', 'mPPTRH5')"><p>Turning the problem on its head</p><img id="video" src="/assets/maps/icons/VideoIcon.png"</img></div></a>
+<div id="vPPTRH5" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/3mbkvaIbhSg" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRH5')" src="/assets/maps/icons/CloseIcon.png"></img></div>
+<div class="hover" id="hPPTRH6" onmouseover="sethm('hPPTRH6', 'mPPTRH6')"></div>
+<div class="message" id="mPPTRH6" onmousedown="openvideo('vPPTRH6')" onmouseout="hide()" onmouseover="sethm('hPPTRH6', 'mPPTRH6')"><p>Overview of sidetrack</p><img id="video" src="/assets/maps/icons/VideoIcon.png"</img></div></a>
+<div id="vPPTRH6" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/piMcAoLDD-k" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRH6')" src="/assets/maps/icons/CloseIcon.png"></img></div>
+<div class="hover" id="hPPTRH7" onmouseover="sethm('hPPTRH7', 'mPPTRH7')"></div>
+<div class="message" id="mPPTRH7" onmousedown="openvideo('vPPTRH7')" onmouseout="hide()" onmouseover="sethm('hPPTRH7', 'mPPTRH7')"><p>Your chance to be a wizard</p><img id="video" src="/assets/maps/icons/VideoIcon.png"</img></div></a>
+<div id="vPPTRH7" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/H9oOJcaigUs" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRH7')" src="/assets/maps/icons/CloseIcon.png"></img></div>
+<div class="hover" id="hPPTRH8" onmouseover="sethm('hPPTRH8', 'mPPTRH8')"></div>
+<div class="message" id="mPPTRH8" onmousedown="openvideo('vPPTRH8')" onmouseout="hide()" onmouseover="sethm('hPPTRH8', 'mPPTRH8')"><p>Instructive examples: 2 and 10</p><img id="video" src="/assets/maps/icons/VideoIcon.png"</img></div></a>
+<div id="vPPTRH8" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/7qbN9w24hhY" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRH8')" src="/assets/maps/icons/CloseIcon.png"></img></div>
+<div class="hover" id="hPPTRH9" onmouseover="sethm('hPPTRH9', 'mPPTRH9')"></div>
+<div class="message" id="mPPTRH9" onmousedown="openvideo('vPPTRH9')" onmouseout="hide()" onmouseover="sethm('hPPTRH9', 'mPPTRH9')"><p>Your chance to be a wizard, again!</p><img id="video" src="/assets/maps/icons/VideoIcon.png"</img></div></a>
+<div id="vPPTRH9" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/mVhotEFaPUw" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRH9')" src="/assets/maps/icons/CloseIcon.png"></img></div>
+<div class="hover" id="hPPTRH10" onmouseover="sethm('hPPTRH10', 'mPPTRH10')"></div>
+<div class="message" id="mPPTRH10" onmousedown="openvideo('vPPTRH10')" onmouseout="hide()" onmouseover="sethm('hPPTRH10', 'mPPTRH10')"><p>Standing on the shoulders and a word about notation</p><img id="video" src="/assets/maps/icons/VideoIcon.png"</img></div></a>
+<div id="vPPTRH10" class="openvideo" style="display:none;"><iframe class="video" src="https://www.youtube.com/embed/-RE-ChN2p4w" frameborder="0" allowfullscreen></iframe><img class="close" onmousedown="closevideo('vPPTRH10')" src="/assets/maps/icons/CloseIcon.png"></img></div>
+<div id="flasher"></div>
+
+
+</body>
+  <script src="javascript/mapcode.js"></script>
+
+</html>

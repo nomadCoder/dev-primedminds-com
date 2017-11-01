@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Primed Minds</title>
+    <!-- materialize css -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/materialize.min.css">
+
+    <!-- jquery js -->
+    <script src="public/javascript/jquery-1.12.3.min.js"></script>
+
+    <!-- materialize js -->
+    <script src="public/javascript/materialize.min.js"></script>
+
+    <!-- local js -->
+    <script src="javascript/navbar.js"></script>
+    <script src="javascript/header.js"></script>
+
+    <!-- fonts from gapis -->
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:300">
+
+    <!-- local css -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/contact.css">
+    <script src="javascript/contact.js"></script>
+    <!-- js imported for question/ answer format --> 
+    <script src="javascript/question_answer_expansion.js"></script>
+</head>
+
+<body>
+    <!-- navbar code, copy code to top of body -->
+    <div id="navbar"></div>
+    <!-- load the navbar --> 
+    <script>
+        $(function(){
+            $("#navbar").load("navbar.html"); 
+        });
+    </script>
+
+    <div class="grid" id="faq">
+        <div class="col-1-2 QnA">
+            <h1>FAQ</h1>
+            <div class="question" id='q1'>What is Primed Minds?</div>
+            <div class="answer" id="a1">
+                <p>Primed Minds is a tool to inspire you mathematically!</p>
+                <p>Showcasing the joy and beauty inherent in mathematics, our Explorations, unlike traditional presentations, are a wild affair that impart the thrill of discovery by alternately entertaining and actively engaging. </p>
+                <p>Each <a href="/explorations.html">Exploration</a> consists of a sequence of short entertaining videos (30-90 second), and interactive content that immerse you in the experience of being a real mathematician! You'll experience how a dead-end alley becomes an A-ha moment. You'll smell the mathematical flowers that blossom around intractable unsolved mysteries. And you might even learn a little math along the way. </p>
+                <p> Want to learn more? Visit our <a href="about.html">About Us</a> page!</p>
+            </div>
+            <div class="question" id='q2'>Are there any teacher resources?</div>
+            <div class="answer" id="a2">
+                <p> Yes, there are! Check out our resources <a href="resources.html">here</a>!</p>
+            </div>
+            <div class="question" id='q3'>The explorations are too easy.</div>
+            <div class="answer" id="a3">
+                <p>That may be the case, but easy or hard is not really the point. Eating a great meal is really easy, but you still get great value out of it. If you’re hungry for more, send us a note and we’ll send you something new to mull over or simply point you in the direction of some related and interesting mathematical terrain to explore further.</p>
+            </div>
+            <div class="question" id='q4'>The explorations are too hard</div>
+            <div class="answer" id="a4">
+                <p>That may be the case, but easy or hard is not really the point. When you first read Winnie The Pooh, you certainly didn’t understand all the alliteration and thematic underpinnings, but you enjoyed it (if you haven’t read Winnie The Pooh, you should do so right away, regardless of your age). Hopefully it inspired you. In the same spirit, without understanding everything, hopefully mathematics seems a little more fun now. But try <a href="explorations.html">another Exploration</a>, and ask your teacher or your parents about getting the teaching materials for your class or at home. The <a href="resources.html">Teacher Materials</a> really flesh out these 30,000 foot Explorations.
+                </p>
+            </div>
+            <div class="question" id='q5'>There was stuff I don't understand.</div>
+            <div class="answer" id="a5">
+                <p>Hey there’s stuff we don’t understand, that doesn’t mean it isn’t interesting to explore! Many of our Explorations tread very closely to problems that are alive and well in cutting edge research mathematics. They are designed to give you a glimpse of the frontiers, in much the same way visiting a great museum does for art or science.
+                </p>
+            </div>
+            <div class="question" id='q6'>Are there explosions in every Exploration?</div>
+            <div class="answer" id="a6">
+                <p>I kind of see the explosions as a metaphor for coming off the race track. It has been said that if you don't come off the race track once in a while, then you're probably not pushing hard enough. It's the same with mathematics. The great mathematician Goro Shimura encapsulated this very well when talking about one of his collaborators: "Taniyama was not a very careful person as a mathematician. He made a lot of mistakes, but he made mistakes in a good direction, and so eventually, he got right answers, and I tried to imitate him, but I found out that it is very difficult to make good mistakes." In short, it is good to practice making mistakes.
+                </p>
+            </div>
+
+        </div>
+        <div class="col-2-2" id="main">
+            <h1> CONTACT US </h1>
+            <form id="form">
+                <p>Name: <input type="text" id="name"></p>
+                <div id="name-msg"></div>
+                <p>Email: <input type="text" id="email"></p>
+                <div id="email-msg"></div>
+                <p>Message: <textarea id="message" rows="10" cols="50"></textarea></p>
+                <div id="message-msg"></div>
+                <p><button onclick="validate()">Submit</button></p>
+                <div id="success"></div>
+            </form>
+        </div>
+        <div id="subscribecontainer">
+            <button id="subscribe"><a id="subscribelink" href="http://eepurl.com/cUq_Rz">Subscribe!<a/></button>
+        </div>
+</body>
+
+</html>

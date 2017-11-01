@@ -1,0 +1,243 @@
+body {
+  background-color: #ffe900;
+}
+
+#background {
+  height: 100vh;
+  width: 166.67vh;
+  z-index: 1;
+}
+
+#flasher {
+  position: absolute;
+  height: calc(95vh / 9);
+  width: calc(75vh / 9);
+  background-color: #ffe900;
+  top: calc(88vh); 
+  left: calc(101vh); 
+  z-index: 2;
+}
+
+#backHome-container {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #7d7979;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+#backHome {
+    top: 27px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    display: block;
+    background-image: url("https://i.imgur.com/1rUjP5K.png");
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .3);
+    float: left;
+}
+
+#backHome-container:hover {
+    transform: scale(1.07);
+}
+
+.hover {
+  position: absolute;
+  height: 9vh;
+  width: 9vh;
+  //background-color: red;
+  opacity: 0.0;
+  z-index: 2;
+}
+
+.message {
+  position: absolute;
+  background-color: #ffe900;
+  width: calc(500vh / 9);
+  margin: auto;
+  border-style: solid;
+  border-color: #DC2222;
+  border-radius: 25px;
+  box-shadow: 0 0 30px black;
+  -moz-box-shadow: 0 0 30px black;
+  -webkit-box-shadow: 0 0 30px black;
+  visibility: hidden;
+  z-index: 3;
+}
+
+p {
+  width: 33.33vh;
+  font-size: 3.33vh;
+  padding: 5px;
+  text-decoration: none;
+  padding-left: 4.44vh;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#slideshow, #handout {
+  position: absolute;
+  right: 5.55vh;
+  top: 30%;
+  height: calc(62.5vh / 9);
+  width: calc(62.5vh / 9);
+}
+
+#video {
+  position: absolute;
+  right: 5.55vh;
+  top: 30%;
+  height: (62.5vh / 9);
+  width: calc(85vh / 9);
+}
+
+#interactive {
+  position: absolute;
+  right: 5.55vh;
+  top: 30%;
+  height: calc(62.5vh / 9);
+  width: calc(100vh / 9);
+}
+
+.openvideo {
+  height: calc(750vh / 9);
+  width: calc(1350vh / 9);
+  position: absolute;
+  background-color: #ffe900;
+  top: calc(100vh / 9);
+  left: calc(100vh / 9);
+  margin: auto;
+  border-style: solid;
+  border-color: #DC2222;
+  border-radius: 50px;
+  z-index: 4;
+}
+
+.video {
+  position: absolute;
+  top: calc(100vh / 9);
+  left: calc(125vh / 9);
+  width: calc(1067.5vh / 9);
+  height: calc(600vh / 9);
+}
+.close {
+  position: absolute;
+  top: calc(10vh / 9);
+  right: calc(10vh / 9);
+  height: calc(100vh / 9);
+  width: calc(100vh / 9);
+}
+ 
+#hPPTRH1, #mPPTRH1 {
+ top: calc(1111vh / 12.6);
+ left: calc(1417vh / 12.6);
+ } 
+ 
+ #hPPTRH2, #mPPTRH2 {
+ top: calc(735vh / 12.6);
+ left: calc(1135vh / 12.6);
+ } 
+ 
+ #hPPTRH3, #mPPTRH3 {
+ top: calc(1101vh / 12.6);
+ left: calc(655vh / 12.6);
+ } 
+ 
+ #hPPTRH4, #mPPTRH4 {
+ top: calc(779vh / 12.6);
+ left: calc(183vh / 12.6);
+ } 
+ 
+ #hPPTRH5, #mPPTRH5 {
+ top: calc(107vh / 12.6);
+ left: calc(655vh / 12.6);
+ } 
+ 
+ #hPPTRH6, #mPPTRH6 {
+ top: calc(253vh / 12.6);
+ left: calc(1279vh / 12.6);
+ } 
+ 
+ #hPPTRH7, #mPPTRH7 {
+ top: calc(515vh / 12.6);
+ left: calc(1471vh / 12.6);
+ } 
+ 
+ #hPPTRH8, #mPPTRH8 {
+ top: calc(433vh / 12.6);
+ left: calc(1095vh / 12.6);
+ } 
+ 
+ #hPPTRH9, #mPPTRH9 {
+ top: calc(487vh / 12.6);
+ left: calc(799vh / 12.6);
+ } 
+ 
+ #hPPTRH10, #mPPTRH10 {
+ top: calc(499vh / 12.6);
+ left: calc(377vh / 12.6);
+ }
+
+#hTask1, #mTask1 {
+top: calc(879vh / 12.6);
+left: calc(1165vh / 12.6);
+} 
+
+#hHandout1, #mHandout1 {
+top: calc(1003vh / 12.6);
+left: calc(719vh / 12.6);
+} 
+
+#hTask2, #mTask2 {
+top: calc(897vh / 12.6);
+left: calc(251vh / 12.6);
+} 
+
+#hPPI10, #mPPI10 {
+top: calc(835vh / 12.6);
+left: calc(75vh / 12.6);
+} 
+
+#hHandout2, #mHandout2 {
+top: calc(249vh / 12.6);
+left: calc(589vh / 12.6);
+} 
+
+#hPPV11, #mPPV11 {
+top: calc(203vh / 12.6);
+left: calc(1051vh / 12.6);
+} 
+
+#hTask3, #mTask3 {
+top: calc(441vh / 12.6);
+left: calc(1489vh / 12.6);
+} 
+
+#hHandout3, #mHandout3 {
+top: calc(473vh / 12.6);
+left: calc(1183vh / 12.6);
+} 
+
+#hTask4, #mTask4 {
+top: calc(449vh / 12.6);
+left: calc(715vh / 12.6);
+} 
+
+#hHandout4, #mHandout4 {
+top: calc(611vh / 12.6);
+left: calc(439vh / 12.6);
+} 
