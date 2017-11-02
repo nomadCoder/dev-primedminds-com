@@ -1,7 +1,8 @@
 <?php 
+    error_reporting(E_ALL|E_STRICT);
     // include the document start and standard page header
-    include '/includes/doc-start.php';
-    include '/includes/page-header.php';
+    include 'http://dev-primedminds.mybluemix.net/includes/doc-start.php';
+    include 'http://dev-primedminds.mybluemix.net//includes/page-header.php';
 ?>
 
 <!-- START: page content -->
@@ -20,7 +21,6 @@
 
 <?php
     // include the document end to close body and html
-    include '/includes/page-footer.php';
-    // include '/includes/doc-end.php';
-    require '/includes/doc-end.php';
-?>    
+    include 'http://dev-primedminds.mybluemix.net/includes/page-footer.php';
+    require 'http://dev-primedminds.mybluemix.net/includes/doc-end.php';
+?>   
