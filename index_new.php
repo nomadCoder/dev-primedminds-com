@@ -1,5 +1,4 @@
 <?php 
-    error_reporting(E_ALL|E_STRICT);
     // include the document start and standard page header
     include 'http://dev-primedminds.mybluemix.net/includes/doc-start.php';
     include 'http://dev-primedminds.mybluemix.net//includes/page-header.php';
