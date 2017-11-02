@@ -21,5 +21,6 @@
 <?php
     // include the document end to close body and html
     include '/includes/page-footer.php';
-    include '/includes/doc-end.php';
+    // include '/includes/doc-end.php';
+    require '/includes/doc-end.php';
 ?>    
