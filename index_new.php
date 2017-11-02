@@ -2,10 +2,12 @@
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
 
+    echo ()
+
     // include the document start and standard page header
     // include 'http://dev-primedminds.mybluemix.net/includes/doc-start.php';
-    include 'http://dev-primedminds.mybluemix.net/includes/docStart.php';
-    include 'http://dev-primedminds.mybluemix.net//includes/page-header.php';
+    include $_SERVER['DOCUMENT_ROOT'].'/includes/doc-start.php';
+    include $_SERVER['DOCUMENT_ROOT'].'/includes/page-header.php';
 ?>
 
 <!-- START: page content -->
@@ -24,6 +26,6 @@
 
 <?php
     // include the document end to close body and html
-    include 'http://dev-primedminds.mybluemix.net/includes/page-footer.php';
-    require 'http://dev-primedminds.mybluemix.net/includes/doc-end.php';
+    include $_SERVER['DOCUMENT_ROOT'].'/includes/page-footer.php';
+    require $_SERVER['DOCUMENT_ROOT'].'/includes/doc-end.php';
 ?>   
