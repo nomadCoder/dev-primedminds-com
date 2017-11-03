@@ -1,7 +1,7 @@
 <?php 
     // set page variables
-    var $pageTitle = "About"
-    var $headerAdd = "<script src="javascript/about.js"></script>\n<link rel="stylesheet" type="text/css" href="stylesheets/about.css">"
+    var $pageTitle = 'About';
+    var $headerAdd = '<script src="javascript/about.js"></script>\n<link rel="stylesheet" type="text/css" href="stylesheets/about.css">';
     // include the document start and standard page header
     // include 'http://dev-primedminds.mybluemix.net/includes/doc-start.php';
     include $_SERVER['DOCUMENT_ROOT'].'/includes/doc-start.php';

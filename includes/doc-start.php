@@ -1,4 +1,8 @@
 <?php 
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+
     // Check for page title additional text passed from included page
     if (isset($pageTitle)) {
         $pageTitle = " - " . $pageTitle;
@@ -15,7 +19,7 @@
 
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Primed Minds<?php print($pageTitle); ?></title>
+    <title>Primed Minds<?php print $pageTitle; ?></title>
 
     <!-- jquery js -->
     <script src="/_js/jquery-1.12.3.min.js"></script>
@@ -43,7 +47,7 @@
     <link rel="stylesheet" type="text/css" href="/_css/navbar.css">
 
     <!-- additional header code -->
-    <?php print($headerAdd); ?>
+    <?php print $headerAdd; ?>
     
 </head>
 
