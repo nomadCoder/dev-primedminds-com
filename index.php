@@ -1,4 +1,6 @@
 <?php 
+    // set page variables
+    $jsDocumentFn = "/_js/index.js";
     // include the document start and standard page header
     // include 'http://dev-primedminds.mybluemix.net/includes/doc-start.php';
     include $_SERVER['DOCUMENT_ROOT'].'/includes/doc-start.php';

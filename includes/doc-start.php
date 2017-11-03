@@ -11,9 +11,17 @@
     } 
 
     // Check for page additional header code passed from included page
- /*   if (!isset($headerAdd)) {
-        var $headerAdd = "";
-    } */
+    if (!isset($headerAdd)) {
+        $headerAdd = "";
+    }
+
+    // Check for page additional header code passed from included page
+    if (isset($jsDocumentFn)) {
+        $jsDocumentFn = "<script src=".'"'.$jsDocumentFn.'"'."></script>";
+    } else {   
+        $jsDocumentFn = "";
+    }
+?>     
 ?>     
 
 <html>
@@ -30,7 +38,6 @@
 
     <!-- page javascript files -->
     <script src="/_js/navbar.js"></script>
-    <script src="/_js/index.js"></script>
     <script src="/_js/header.js"></script>
 
     <!-- fonts from gapis -->
@@ -46,6 +53,9 @@
 
     <!-- nav css -->
     <link rel="stylesheet" type="text/css" href="/_css/navbar.css">
+
+    <!-- document jquery function -->
+    <?php print $jsDocumentFn; ?>
 
     <!-- additional header code -->
     <?php print $headerAdd; ?>
