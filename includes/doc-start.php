@@ -19,6 +19,9 @@
     <!-- local css -->
     <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
 
+    <!-- nav css -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
+
     <script src="javascript/navbar.js"></script>
     <script src="javascript/index.js"></script>
     <script src="javascript/header.js"></script>
