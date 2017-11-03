@@ -1,7 +1,4 @@
 <?php 
-    error_reporting(E_ALL);
-    ini_set('display_errors', 1);
-
     // include the document start and standard page header
     // include 'http://dev-primedminds.mybluemix.net/includes/doc-start.php';
     include $_SERVER['DOCUMENT_ROOT'].'/includes/doc-start.php';
