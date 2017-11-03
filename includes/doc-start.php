@@ -4,11 +4,12 @@
     error_reporting(E_ALL);
 
     // Check for page title additional text passed from included page
-/*    if (isset($pageTitle)) {
-        $pageTitle = " - " . $pageTitle;
+    if (isset($pageTitle)) {
+        $pageTitle = " - ".$pageTitle;
     } else {
-        var $pageTitle = "";
-    } */
+        $pageTitle = "";
+    } 
+
     // Check for page additional header code passed from included page
  /*   if (!isset($headerAdd)) {
         var $headerAdd = "";
