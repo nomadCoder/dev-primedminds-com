@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head lang="en">
@@ -25,3 +26,29 @@
 </head>
 
 <body>
+    <!-- navbar code, copy code to top of body -->
+    <div id="navbar"></div>
+    <!-- load the navbar --> 
+    <script>
+        $(function(){
+            $("#navbar").load("navbar.html"); 
+            console.log( $("index").className );
+        });
+                    
+    </script>
+
+    <div id="main">
+        <video playsinline autoplay muted loop id="bgvid">
+		    <source src="assets/index/PMWelcomeVideo.mp4" type="video/mp4">
+		</video>
+
+        <a id="about_ref" href="about.html"><p id="homeText">A tool to inspire you mathematically!</p></a>
+
+        <a id="volume" onclick="toggleVolume()"><img id="vol_icon" src="assets/index/speaker.png" height="40px"></a>
+        <footer>
+            &copy; Copyright 2016
+        </footer>
+    </div>
+</body>
+
+</html>
