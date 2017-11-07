@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Primed Minds</title>
 
-    <link rel="stylesheet" type="text/css" href="_css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="_css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <script src="_js/jquery-3.2.1.min.js"></script>
-    <script src="_js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- fonts from gapis -->
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:800" rel="stylesheet">
@@ -27,7 +27,7 @@
     <header>
         <nav class="navbar canvas">
             <a class="navbar-brand" href="/index.php">
-                <img src="media/logo-header.png" id="logo" height="75" />
+                <img src="media/logo/logo-white-s.png" id="logo" height="72" width="200" />
             </a>
 
             <ul class="nav nav-pills justify-content-right">
@@ -35,18 +35,27 @@
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" data-toggle="dropdown" href="#">About</a>
+                    <ul class="dropdown-menu sub-menu">
+                        <li class="nav-item"><a href="#" class="nav-link">About Primed Minds</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">The Team</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Partners</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">Explorations</a>
                     <ul class="dropdown-menu sub-menu">
-                        <li><a href="#">Parity and Pigeons</a></li>
-                        <li><a href="#">Spot It</a></li>
-                        <li><a href="#">Chocolate Aliens</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Parity and Pigeons</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Spot It</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Chocolate Aliens</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Resources</a>
+                    <a class="nav-link" data-toggle="dropdown" href="#">Resources</a>
+                    <ul class="dropdown-menu sub-menu">
+                        <li class="nav-item"><a href="#" class="nav-link">General Resources</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Sample Teacher Resource</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">FAQ</a>
