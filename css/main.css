@@ -7,6 +7,7 @@ header {
     z-index: 100;
     display: block !important;
     background-color: #F44336;
+    margin-bottom: 0;
 }
 
 footer {
@@ -25,6 +26,7 @@ footer {
     position: fixed;
     top: 85px;
     width: 100%;
+
 }
 
 .canvas {
@@ -80,20 +82,27 @@ body nav *, body nav a:hover, body nav a:active  {
 }
 
 /* Homepage video embedded styles */
-
+/*
 video#bgvid {
     margin: auto;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
     z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
 }
+*/
+
+.videoInsert {
+    position: absolute; 
+    top: 0;
+    right: 0; 
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    background-color: #fff !important;
+    overflow: hidden;
+}
+
 
 #volume {
     float: right;

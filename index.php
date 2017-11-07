@@ -3,7 +3,7 @@
     
     // $pageTitle = ""; // Variable to append the page title "Primed Minds" with " - <pageTitle>"
     // $addHeadCode = ""; // Variable to add any additional code to the head for the page
-    // $jsDocumentFn = ""; // Sets the script name for jQuery document code
+    $jsDocumentFn = "/js/index.js"; // Sets the script name for jQuery document code
 
     // Include the document start and standard page header
     include $_SERVER['DOCUMENT_ROOT'].'/php-inc/doc-start.php';
