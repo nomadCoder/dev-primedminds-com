@@ -2,6 +2,8 @@
 
 <head lang="en">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Primed Minds</title>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -10,6 +12,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="https://use.fontawesome.com/4273b81168.js"></script>
 
     <!-- fonts from gapis -->
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:800" rel="stylesheet">
@@ -21,17 +24,24 @@
         <script src="https://fb.me/react-dom-0.14.3.js"></script>
     -->
 
+    <style type="text/css"> body { background-color: #000; } </style>
+
 </head>
 
 <body>
     <!-- navbar code, copy code to top of body -->
+    
     <header>
-        <nav class="navbar canvas">
+        <nav class="navbar canvas navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-fluid">
             <a class="navbar-brand" href="/index.php">
                 <img src="media/logo/logo-white-s.png" id="logo" height="72" width="200" />
             </a>
 
-            <ul class="nav nav-pills justify-content-right">
+            <ul class="nav nav-pills">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
                 </li>
@@ -65,35 +75,29 @@
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
-
+        </div>
         </nav>
 
 
 
     </header>
 
+    
     <div class="videoContainer embed-responsive embed-responsive-16by9">
-            <video playsinline autoplay muted loop class="embed-responsive-item" >
-                    <source src="assets/index/PMWelcomeVideo.mp4" type="video/mp4">
-            </video>
-        </div>
-    
-    <div id="main">
-        <!-- <div class="canvas"> -->
-            
-        <!--    </div>    -->
-
-            <!--
-            <video playsinline autoplay muted loop class="videoInsert">
+        <video playsinline muted loop class="embed-responsive-item" id="homeVideo" >
                 <source src="assets/index/PMWelcomeVideo.mp4" type="video/mp4">
-            </video>
-            -->
-            <a id="about_ref" href="about.html"><p id="homeText">A tool to inspire you mathematically!</p></a>
-    
-            <a id="volume" onclick="toggleVolume()"><img id="vol_icon" src="assets/index/speaker.png" height="40px"></a>
-        
+        </video>
+
+
     </div>
 
+    <div id="main">
+
+    <a id="about_ref" href="about.html"><p id="homeText">A tool to inspire you mathematically!</p></a>
+    
+    <a id="volume" onclick="toggleVolume()"><i class="fa fa-volume-off" aria-hidden="true"></i></a>
+
+    </div>
 
     <footer>
         &copy; Copyright 2016

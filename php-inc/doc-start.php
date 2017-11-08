@@ -23,6 +23,13 @@
     } else {   
         $jsDocumentFn = "";
     }
+
+    // Check for additional header code passed from included page for body style
+    if (!isset($pageBody)) {
+        $pageBody = "";
+    } else {
+        $pageBody = '<style type="text/css"> body { background-color: '.$pageColour.'; } </style>';
+    }
 ?>
 
 <html>
@@ -48,10 +55,15 @@
     <!-- document jquery function -->
     <?php print $jsDocumentFn; ?>
 
+    <!-- document jquery function -->
+    <?php print $pageBody; ?>
+
     <!-- React Development Tools - If Selected as Language of Choice (look up react games)
         <script src="https://fb.me/react-0.14.3.js"></script>
         <script src="https://fb.me/react-dom-0.14.3.js"></script>
     -->
+
+
 
 </head>
 

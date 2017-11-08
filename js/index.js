@@ -4,8 +4,8 @@ var icon;
 
 // when the page loads
 $(document).ready(function () {
-    video = document.getElementById("bgvid");
-    icon = document.getElementById("vol_icon");
+    video = document.getElementById("homeVideo");
+    icon = document.getElementById("volume");
 });
 
 function toggleVolume() {
@@ -16,8 +16,8 @@ function toggleVolume() {
 
     // togle volume button image 
     if (muted) {
-        icon.src = "assets/index/speaker.png";
+        icon.innerHTML = '<i class="fa fa-volume-off" aria-hidden="true"></i>';
     } else {
-        icon.src = "assets/index/mute.png";
+        icon.innerHTML = '<i class="fa fa-volume-up" aria-hidden="true"></i>';
     }
 }

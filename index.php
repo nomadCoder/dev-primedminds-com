@@ -3,6 +3,7 @@
     
     // $pageTitle = ""; // Variable to append the page title "Primed Minds" with " - <pageTitle>"
     // $addHeadCode = ""; // Variable to add any additional code to the head for the page
+    $pageBody = "#000"; // Sets the colour of the page background if other than default, in format #fff 
     $jsDocumentFn = "/js/index.js"; // Sets the script name for jQuery document code
 
     // Include the document start and standard page header
@@ -12,16 +13,18 @@
 
 <!-- START: page content -->
 
+<div class="videoContainer embed-responsive embed-responsive-16by9">
+    <video playsinline autoplay muted loop class="embed-responsive-item" id="homeVideo">
+       <source src="assets/index/PMWelcomeVideo.mp4" type="video/mp4">
+    </video>
+</div>
+
 <div id="main">
-    <div class="canvas">
-        <video playsinline autoplay muted loop id="bgvid">
-            <source src="/assets/index/PMWelcomeVideo.mp4" type="video/mp4">
-        </video>
 
-        <a id="about_ref" href="about.html"><p id="homeText">A tool to inspire you mathematically!</p></a>
+    <a id="about_ref" href="about.html"><p id="homeText">A tool to inspire you mathematically!</p></a>
 
-        <a id="volume" onclick="toggleVolume()"><img id="vol_icon" src="/assets/index/speaker.png" height="40px"></a>
-    </div>
+    <a id="volume" onclick="toggleVolume()"><i class="fa fa-volume-up" aria-hidden="true"></i></a>
+
 </div>
 
 <!-- END: page content -->

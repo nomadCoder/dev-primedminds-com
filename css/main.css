@@ -43,6 +43,7 @@ footer {
 /* Dropdown menu styles */
 .navbar {
     margin-top: 12px;
+    min-width: 600px;
 }
 
 body nav *, body nav a:hover, body nav a:active  {
@@ -109,7 +110,6 @@ video
     height:100%;
     width:100%;
     overflow: hidden;
-    /* background-color: #faf !important; */
 }
 
 .videoContainer video 
@@ -118,6 +118,8 @@ video
     min-height: 100%;
 }
 
+
+/*
 .videoInsert {
     position: absolute; 
     top: 0;
@@ -131,35 +133,34 @@ video
     background-color: #fff !important;
     overflow: hidden;
 }
-
+*/
 
 #volume {
-    float: right;
-    margin-right: 340px;
-    margin-top: 70px;
     cursor: pointer;
+    color: #fff;
+    font-size: 3.5vw;
+    position: fixed;
+    top: 60%;
+    left: 100%;
+    margin-top: 2.5vw;
+    margin-left: -30vw;
 }
-
 
 
 #homeText {
     color: white;
-    font-size: 28pt;
+    font-size: 3vw;
     text-align: center;
     background-color: black;
     opacity: 0.7;
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 275px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 60vw;
+    height: 5vw;
+    margin-top: 2.5vw;
+    margin-left: -30vw;
     transition: 0.5s;
-}
-
-#homeText:after {
-  content: '  \00bb';
-  position: relative;
-  opacity: 0;
-  top: 0;
-  transition: 0.5s;
 }
 
 #homeText:hover {
@@ -167,9 +168,10 @@ video
 }
 
 #homeText:hover:after {
-  opacity: 1;
-  right: 0;
-}
+    content: '  \00bb';
+    transition: 0.5s;
+  }
+
 
 /*
 .nav-tabs .dropdown-menu,
