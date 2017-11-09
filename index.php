@@ -4,10 +4,15 @@
     // $pageTitle = ""; // Variable to append the page title "Primed Minds" with " - <pageTitle>"
     // $addHeadCode = ""; // Variable to add any additional code to the head for the page
     $pageBody = "#000"; // Sets the colour of the page background if other than default, in format #fff 
-    $jsDocumentFn = "/js/index.js"; // Sets the script name for jQuery document code
 
     // Include the document start and standard page header
-    include $_SERVER['DOCUMENT_ROOT'].'/php-inc/doc-start.php';
+    include $_SERVER['DOCUMENT_ROOT'].'/php-inc/doc-start-jspre.php';
+    // start of document.ready function - enter code below
+?>
+    video = document.getElementById("homeVideo");
+    icon = document.getElementById("volume");
+<?php
+    include $_SERVER['DOCUMENT_ROOT'].'/php-inc/doc-start-jspost.php';
     include $_SERVER['DOCUMENT_ROOT'].'/php-inc/page-header.php';
 ?>
 

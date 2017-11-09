@@ -3,10 +3,13 @@ var video;
 var icon;
 
 // when the page loads
+/* Removed as now in page code
 $(document).ready(function () {
     video = document.getElementById("homeVideo");
     icon = document.getElementById("volume");
 });
+*/
+
 
 function toggleVolume() {
     // toggle volume
