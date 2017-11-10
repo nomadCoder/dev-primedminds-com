@@ -38,17 +38,21 @@
     <meta charset="UTF-8">
     <title>Primed Minds<?php print $pageTitle; ?></title>
 
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/main.1.0.css">
-
+    
     <script src="/js/jquery-3.2.1.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/main.1.0.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.1.1.css">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
     <!-- fonts from gapis -->
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
     <!-- additional header code -->
     <?php print $addHeadCode; ?>
