@@ -1,9 +1,9 @@
 <footer>
-    <div class="container canvas">
-        <div class="pull-left">
-            &copy; Copyright <?php echo date("Y"); ?>
-        </div>
-        <div class="pull-right">
+<div class="container canvas">
+    <div class="pull-left">
+        &copy; Copyright 
+    </div>
+    <div class="pull-right">
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
             <form action="https://primedminds.us15.list-manage.com/subscribe/post?u=815d9468c3345076584e0e197&amp;id=60a33df354" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
@@ -15,6 +15,6 @@
             </form>
         </div>       
         <!--End mc_embed_signup-->
-        </div>
     </div>
+</div>
 </footer>

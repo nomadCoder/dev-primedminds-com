@@ -17,6 +17,13 @@
         $addHeadCode = "";
     }
 
+    // Check for additional header code passed from included page for body style
+    if (!isset($pageBody)) {
+        $pageBody = "";
+    } else {
+        $pageBody = '<style type="text/css"> body { background-color: '.$pageColour.'; } </style>';
+    }
+
 ?>
 
 <html>
@@ -41,9 +48,6 @@
 
     <!-- additional header code -->
     <?php print $addHeadCode; ?>
-    
-    <!-- document jquery function -->
-    <?php print $jsDocumentFn; ?>
 
     <!-- document jquery function -->
     <?php print $pageBody; ?>
