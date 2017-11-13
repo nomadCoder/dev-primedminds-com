@@ -3,7 +3,7 @@
     
     // $pageTitle = ""; // Variable to append the page title "Primed Minds" with " - <pageTitle>"
     // $addHeadCode = ""; // Variable to add any additional code to the head for the page
-    $pageBody = "#000"; // Sets the colour of the page background if other than default, in format #fff 
+    $pageColour = "#000"; // Sets the colour of the page background if other than default, in format #fff 
 
     // Include the document start and standard page header
     include $_SERVER['DOCUMENT_ROOT'].'/php-inc/doc-start-jspre.php';

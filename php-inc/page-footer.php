@@ -1,5 +1,5 @@
 <footer>
-<div class="container canvas">
+<div class="canvas">
     <div class="pull-left">
         &copy; Copyright 
     </div>
