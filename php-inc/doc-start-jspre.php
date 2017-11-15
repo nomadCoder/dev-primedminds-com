@@ -25,7 +25,7 @@
     <meta charset="UTF-8">
     <title>Primed Minds<?php print $pageTitle; ?></title>
 
-    <!-- favicon code here -->
+    <!-- favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/media/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/media/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/media/favicon/apple-icon-72x72.png">
@@ -51,8 +51,6 @@
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/main.1.1.css">
 
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-
     <!-- fonts from gapis -->
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -60,11 +58,6 @@
 
     <!-- additional header code -->
     <?php print $addHeadCode; ?>
-
-    <!-- React Development Tools - If Selected as Language of Choice (look up react games)
-        <script src="https://fb.me/react-0.14.3.js"></script>
-        <script src="https://fb.me/react-dom-0.14.3.js"></script>
-    -->
     
     <!-- start of document.ready js script code -->
     <script>
