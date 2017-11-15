@@ -11,8 +11,9 @@ $(document).ready(function () {
 */
 
 function toggleVolume(videoID,buttonID) {
-    video = document.getElementById(this.videoID);
-    icon = document.getElementById(this.buttonID);  
+    // set video and icon elements passed to function
+    video = document.getElementById(videoID);
+    icon = document.getElementById(buttonID);  
     
     // toggle volume
     muted = !muted;
