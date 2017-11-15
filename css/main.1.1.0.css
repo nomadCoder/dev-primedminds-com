@@ -22,7 +22,7 @@ header {
     cursor: pointer;
 }
 
-
+/*
 footer {
     background-color: lightgray;
     position: absolute;
@@ -34,7 +34,13 @@ footer {
     font-size: 13pt;
     width: 100%;
 }
+*/
 
+footer {
+    background-color: lightgray;
+    font-size: small;
+    width: 100%;
+}
 
 #main {
     position: fixed;

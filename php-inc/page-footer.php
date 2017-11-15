@@ -1,11 +1,10 @@
-<footer>
-<div class="container canvas">
-    <div class="pull-left">
-        &copy; Copyright 
-    </div>
-    <div class="pull-right">
+<footer class="fixed-bottom">
+    <div class="canvas">
+        <span class="pull-left">
+            &copy; Copyright 
+        </span>
         <!-- Begin MailChimp Signup Form -->
-        <div id="mc_embed_signup">
+        <div id="mc_embed_signup pull-right">
             <form action="https://primedminds.us15.list-manage.com/subscribe/post?u=815d9468c3345076584e0e197&amp;id=60a33df354" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
                 <label class="form-label">Subscribe to our newsletter</label>&nbsp;
                 <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="email address" id="mce-EMAIL">
@@ -16,5 +15,4 @@
         </div>       
         <!--End mc_embed_signup-->
     </div>
-</div>
 </footer>
