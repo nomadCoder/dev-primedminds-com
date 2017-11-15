@@ -5,13 +5,7 @@
      $addHeadCode = '<style type="text/css"> body { background-color: #000; } </style>'; // Variable to add any additional code to the head for the page
 
     // Include the document start and standard page header
-    include $_SERVER['DOCUMENT_ROOT'].'/php-inc/doc-start-jspre.php';
-    // start of document.ready function - enter code below
-?>
-    video = document.getElementById("homeVideo");
-    icon = document.getElementById("volume");
-<?php
-    include $_SERVER['DOCUMENT_ROOT'].'/php-inc/doc-start-jspost.php';
+    include $_SERVER['DOCUMENT_ROOT'].'/php-inc/doc-start-basic.php';
     include $_SERVER['DOCUMENT_ROOT'].'/php-inc/page-header.php';
 ?>
 
@@ -27,7 +21,7 @@
 
     <a id="about_ref" href="about.html"><p id="homeText">A tool to inspire you mathematically!</p></a>
 
-    <a id="volume" onclick="toggleVolume()"><i class="fa fa-volume-up" aria-hidden="true"></i></a>
+    <a id="volume" onclick="toggleVolume('homeVideo','volume')"><i class="fa fa-volume-up" aria-hidden="true"></i></a>
 
 </div>
 

@@ -10,12 +10,14 @@ $(document).ready(function () {
 });
 */
 
-
-function toggleVolume() {
+function toggleVolume(videoID,buttonID) {
+    video = document.getElementById(this.videoID);
+    icon = document.getElementById(this.buttonID);  
+    
     // toggle volume
     muted = !muted;
     // set volume
-    video.muted = muted;  
+    video.muted = muted; 
 
     // togle volume button image 
     if (muted) {
