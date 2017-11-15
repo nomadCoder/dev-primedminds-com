@@ -47,6 +47,7 @@
     <script src="/js/jquery-3.2.1.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/main.1.0.js"></script>
+    <script src="https://use.fontawesome.com/4273b81168.js"></script>
 
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/main.1.1.css">
