@@ -170,6 +170,7 @@ video
 
 #mc_embed_signup {
     min-width:220px;
+    max-width: 800px;
 }
 
 
