@@ -12,9 +12,8 @@ header {
 footer {
     /* background-color: lightgray; Test run of different footer colour */
     background-color: red;
-    padding: 1rem;
+    padding-top: 1rem;
     color: lightgray; /* Added for new background colour */
-    font-size: small;
     width: 100%;
 }
 
