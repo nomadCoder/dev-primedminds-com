@@ -57,7 +57,8 @@ body nav *, body nav a:hover, body nav a:active  {
 }
 
 .sub-menu li a:active, .sub-menu li a:hover {
-    color: #F44336;
+    /* color: #F44336; changed to match the red of the menu */
+    color: red;
     text-decoration: none;
     background-color: yellow;
 }
