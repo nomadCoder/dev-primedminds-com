@@ -16,24 +16,24 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">About</a>
                     <ul class="dropdown-menu sub-menu">
-                        <li class="nav-item"><a href="#" class="nav-link">About Primed Minds</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">The Team</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Partners</a></li>
+                        <li class="nav-item"><a href="/about/index.php" class="nav-link">About Primed Minds</a></li>
+                        <li class="nav-item"><a href="/about/index.php#team" class="nav-link">The Team</a></li>
+                        <li class="nav-item"><a href="/about/index.php#partners" class="nav-link">Partners</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#">Explorations</a>
+                    <a class="nav-link" data-toggle="dropdown" href="/explore/index.php">Explorations</a>
                     <ul class="dropdown-menu sub-menu">
-                        <li class="nav-item"><a href="#" class="nav-link">Parity and Pigeons</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Spot It</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Chocolate Aliens</a></li>
+                        <li class="nav-item"><a href="/explore/index.php#exp1" class="nav-link">Parity and Pigeons</a></li>
+                        <li class="nav-item"><a href="/explore/index.php#exp2" class="nav-link">Spot It</a></li>
+                        <li class="nav-item"><a href="/explore/index.php#exp3" class="nav-link">Chocolate Aliens</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#">Resources</a>
+                    <a class="nav-link" data-toggle="dropdown" href="/resources/index.php">Resources</a>
                     <ul class="dropdown-menu sub-menu">
-                        <li class="nav-item"><a href="#" class="nav-link">General Resources</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Sample Teacher Resource</a></li>
+                        <li class="nav-item"><a href="/resources/index.php" class="nav-link">General Resources</a></li>
+                        <li class="nav-item"><a href="/resources/sample.php" class="nav-link">Sample Teacher Resource</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
