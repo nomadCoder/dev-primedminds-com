@@ -11,7 +11,7 @@
 
 <!-- START: page content -->
 
-<div class="main">
+<div id="main">
     <div class="canvas">
         <div class="row">
             <div class="col-4"> <!-- Side page menu -->
@@ -24,7 +24,7 @@
                             </a>
                         </h5>
                     </div>
-                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
                             <p>Primed Minds is a tool to inspire you mathematically!</p>
                             <p>Showcasing the joy and beauty inherent in mathematics, our Explorations, unlike traditional presentations, are a wild affair that impart the thrill of discovery by alternately entertaining and actively engaging. </p>
