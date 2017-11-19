@@ -1,13 +1,14 @@
- <header class="fixed-top">
-    <nav class="navbar navbar-expand-md canvas" role="navigation">
-        <!-- Logo image on page header -->
+<? // Header including navigation bar ?>
+
+<header class="fixed-top"> 
+    <nav class="navbar navbar-toggleable-md canvas" role="navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <a class="navbar-brand" href="/index.php">
             <img src="/media/logo/logo-white-s.png" id="logo" height="72" width="200" />
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" id="toggleNavMenu"></span>
-        </button>
-        <!-- Menu on page header -->
+        
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">

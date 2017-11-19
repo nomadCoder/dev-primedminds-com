@@ -2,104 +2,123 @@
 
 <head lang="en">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Primed Minds</title>
 
-    <!-- <script src="js/jquery-3.2.1.min.js"></script> -->
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="media/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="media/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="media/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="media/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="media/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="media/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="media/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="media/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="media/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="media/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/favicon/favicon-16x16.png">
+    <link rel="manifest" href="media/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="media/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.1.0.js"></script>
     <script src="https://use.fontawesome.com/4273b81168.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.1.1.css">
-    <!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
 
     <!-- fonts from gapis -->
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- additional header code -->
     <style type="text/css"> body { background-color: #000; } </style>
-
 </head>
 
-<body>
-    <!-- navbar code, copy code to top of body -->
-    
-    <header>
-        <nav class="navbar navbar-expand-md canvas" role="navigation">
-            <a class="navbar-brand" href="/index.php">
-                <img src="media/logo/logo-white-s.png" id="logo" height="72" width="200" />
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span> 
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </button>
-            <div class="navbar-collapse collapse navbar-toggleable-sm" id="menu">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" data-toggle="dropdown" href="#">About</a>
-                        <ul class="dropdown-menu sub-menu">
-                            <li class="nav-item"><a href="#" class="nav-link">About Primed Minds</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">The Team</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Partners</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" data-toggle="dropdown" href="#">Explorations</a>
-                        <ul class="dropdown-menu sub-menu">
-                            <li class="nav-item"><a href="#" class="nav-link">Parity and Pigeons</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Spot It</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Chocolate Aliens</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" data-toggle="dropdown" href="#">Resources</a>
-                        <ul class="dropdown-menu sub-menu">
-                            <li class="nav-item"><a href="#" class="nav-link">General Resources</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sample Teacher Resource</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+<body> 
 
-    
-    <div class="videoContainer embed-responsive embed-responsive-16by9">
-        <video playsinline muted loop class="embed-responsive-item" id="homeVideo" >
-                <source src="assets/index/PMWelcomeVideo.mp4" type="video/mp4">
-        </video>
+ 
+<header class="fixed-top"> 
+    <nav class="navbar navbar-toggleable-md canvas" role="navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/index.php">
+            <img src="media/logo/logo-white-s.png" id="logo" height="72" width="200" />
+        </a>
+        
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">About</a>
+                    <ul class="dropdown-menu sub-menu">
+                        <li class="nav-item"><a href="/about/index.php" class="nav-link">About Primed Minds</a></li>
+                        <li class="nav-item"><a href="/about/index.php#team" class="nav-link">The Team</a></li>
+                        <li class="nav-item"><a href="/about/index.php#partners" class="nav-link">Partners</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="/explore/index.php">Explorations</a>
+                    <ul class="dropdown-menu sub-menu">
+                        <li class="nav-item"><a href="/explore/index.php#exp1" class="nav-link">Parity and Pigeons</a></li>
+                        <li class="nav-item"><a href="/explore/index.php#exp2" class="nav-link">Spot It</a></li>
+                        <li class="nav-item"><a href="/explore/index.php#exp3" class="nav-link">Chocolate Aliens</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="/resources/index.php">Resources</a>
+                    <ul class="dropdown-menu sub-menu">
+                        <li class="nav-item"><a href="/resources/index.php" class="nav-link">General Resources</a></li>
+                        <li class="nav-item"><a href="/resources/sample.php" class="nav-link">Sample Teacher Resource</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
+<!-- START: page content -->
 
-    </div>
+<div class="videoContainer embed-responsive embed-responsive-16by9">
+    <video playsinline autoplay muted loop class="embed-responsive-item" id="homeVideo">
+       <source src="assets/index/PMWelcomeVideo.mp4" type="video/mp4">
+    </video>
+</div>
 
-    <div id="main">
+<div id="main">
 
     <a id="about_ref" href="about.html"><p id="homeText">A tool to inspire you mathematically!</p></a>
-    
-    <a id="volume" onclick="toggleVolume()"><i class="fa fa-volume-off" aria-hidden="false"></i></a>
 
-    </div>
+    <a id="volume" onclick="toggleVolume('homeVideo','volume')"><i class="fa fa-volume-up" aria-hidden="true"></i></a>
 
-    <footer class="fixed-bottom">
-        <div class="canvas">
-            <div class="pull-left">
-                &copy; Copyright 
-            </div>
+</div>
 
+<!-- END: page content -->
+
+
+<footer class="fixed-bottom">
+    <div class="row canvas">
+        <div class="col-4">
+            &copy; Copyright 
+        </div>
+        <div class="col-8">
+            <div class="float-right">
             <!-- Begin MailChimp Signup Form -->
-            <div id="mc_embed_signup pull-right">
+            <div id="mc_embed_signup">
                 <form action="https://primedminds.us15.list-manage.com/subscribe/post?u=815d9468c3345076584e0e197&amp;id=60a33df354" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
                     <label class="form-label">Subscribe to our newsletter</label>&nbsp;
                     <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="email address" id="mce-EMAIL">
@@ -107,12 +126,12 @@
                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_815d9468c3345076584e0e197_60a33df354" tabindex="-1" value=""></div>
                     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary"></div>
                 </form>
-            </div>       
+            </div>  
             <!--End mc_embed_signup-->
-
-    
-        </div>
-    </footer>
+            </div>
+        </div>  
+    </div>
+</footer>
 </body>
 
-</html>
+</html>   

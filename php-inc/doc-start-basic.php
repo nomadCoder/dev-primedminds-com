@@ -25,7 +25,6 @@
     <meta charset="UTF-8">
     <title>Primed Minds<?php print $pageTitle; ?></title>
 
-    <!-- favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/media/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/media/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/media/favicon/apple-icon-72x72.png">
