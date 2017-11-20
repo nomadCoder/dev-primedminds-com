@@ -1,7 +1,7 @@
 header {
     /* background-color: #F44336; */
     background-color: red;
-    height: 75px !important; 
+    /* height: 75px !important; removed to enable responsive mobile menu */
 }
 
 .navbar-toggler-icon {
@@ -45,15 +45,26 @@ body nav *, body nav a:hover, body nav a:active  {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px !important;
     color: #fff;
-    margin-bottom: 7px;
+}
+
+body nav a:hover, body nav a:active  {
+    background-color: yellow;
+    color: red;
+}
+
+a.navbar-brand:hover, a.navbar-brand:active {
+    background-color: transparent !important; 
 }
 
 .sub-menu, .sub-menu li a {
-    color: #F44336;
+    color: #fff;
     text-decoration: none;
-    background-color: #ddd;
+    background-color: red;
     padding: 8px;
+    margin: 0;
+    border: none;
     white-space: nowrap;
+    box-shadow: 2px 2px 1px #888888;
 }
 
 .sub-menu li a:active, .sub-menu li a:hover {
