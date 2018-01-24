@@ -14,16 +14,7 @@
 <div id="main">
     <div class="canvas">
         <div class="row">
-            <div class="col-4" style="background-color: #ccc">
-                this is one
-            </div>
-            <div class="col-8" style="background-color: #333">
-                this is two
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-4"> <!-- Side page menu -->
+            <div class="col-4" style="background-color: #ccc"> <!-- Side page menu -->
                 <div id="accordion" role="tablist">
                     <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
@@ -125,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-8"> <!-- Slideshow -->
+            <div class="col-8" style="background-color: #333"> <!-- Slideshow -->
                 <div id="carouselControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
@@ -185,6 +176,17 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-4">
+                <img class="rounded" src="assets/about/RufusWilliams.jpg" height="140px"></img>
+            </div>
+            <div class="col-4">
+                <img class="rounded" src="assets/about/VShubin.jpg" height="140px"></img>
+            </div>
+            <div class="col-4">
+                <img class="rounded" src="assets/about/RobPollack.jpg" height="140px"></img>
+            </div>
+        </div>    
     </div>
 </div>    
 
