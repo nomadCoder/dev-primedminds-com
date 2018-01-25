@@ -118,6 +118,7 @@
             </div>
             <div class="col-8"> <!-- Slideshow 1 -->
                 <?php
+                    /*
                     $slide_images = ` [ { "src" : "/assets/about/AboutSlideShow1.jpg" , "alt" : "" } ,
                                         { "src" : "/assets/about/AboutSlideShow2.jpg" , "alt" : "" } , 
                                         { "src" : "/assets/about/AboutSlideShow3.jpg" , "alt" : "" } ,
@@ -132,12 +133,15 @@
                                         { "src" : "/assets/about/AboutSlideShow12.jpg" , "alt" : "" } ,
                                         { "src" : "/assets/about/AboutSlideShow13.jpg" , "alt" : "" } ,
                                         { "src" : "/assets/about/AboutSlideShow14.jpg" , "alt" : "" } ,
-                                        { "src" : "/assets/about/AboutSlideShow15.jpg" , "alt" : "" } ] `;
+                                        { "src" : "/assets/about/AboutSlideShow15.jpg" , "alt" : "" } ] `; */
+
+                    $slide_images = '[ { "src" : "/assets/about/AboutSlideShow1.jpg" , "alt" : "" } ]';
 
                     include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-slideshow.php';   
                 ?>                     
             </div>
-            <div class="col-12"> <!-- Slideshow 2 -->
+            <!--
+            <div class="col-12"> 
 
                 <div id="carouselControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
@@ -208,7 +212,9 @@
             <div class="col-4">
                 <img class="rounded" src="/assets/about/RobPollack.jpg" height="140px"></img>
             </div>
-        </div>    
+        </div>   
+        
+        -->
     </div>
 </div>    
 

@@ -7,7 +7,7 @@
 
     // Check for additional header code passed from included page
     if (!isset($slide_images)) {
-        $slide_images = '{ "" : "" }';
+        $slide_images = '[{ "" : "" }]';
     }
 
 ?>
@@ -19,10 +19,10 @@
                 $array = json_decode( $slide_images, true );
                 $i = 0;
                 $active_item = " active";
-                foreach ($array as $key => $value) {
+                foreach ($array as $value) {
                     if ($i != 0 ) { $active_item = ""; }
                     print '<div class="carousel-item' + $active_item + '">';
-                    print '<img class="d-block img-fluid" src="' + $value['src'] + '" height="320" width="500" alt="' + $value['alt'] + '">';
+                    print '<img class="d-block img-fluid" src="' + $value['src'] + ' alt="' + $value['alt'] + '">';
                     print '</div>';
                     $i++;
                 }
