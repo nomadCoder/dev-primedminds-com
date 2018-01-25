@@ -19,7 +19,7 @@
         print $array;
         $i = 0;
         $active_item = " active";
-        foreach ($array as $value) {
+        foreach ($array as &$value) {
             if ($i != 0 ) { $active_item = ""; }
             $item_head = "heading" + $i;
             $item_content = "collapse" + $i;
