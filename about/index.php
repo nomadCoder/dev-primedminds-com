@@ -14,7 +14,7 @@
 <div id="main">
     <div class="canvas">
         <div class="row">
-            <div class="col-4" style="background-color: #ccc"> <!-- Side page menu -->
+            <div class="col-4"> <!-- Side page menu -->
                 <div id="accordion" role="tablist">
                     <div class="card">
                         <div class="card-header bg-primary" role="tab" id="headingOne">
@@ -116,53 +116,75 @@
                     </div>
                 </div>
             </div>
-            <div class="col-8" style="background-color: #333"> <!-- Slideshow -->
+            <div class="col-8"> <!-- Slideshow 1 -->
+                <?php
+                    $slide_images = ` [ { "src" : "/assets/about/AboutSlideShow1.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow2.jpg" , "alt" : "" } , 
+                                        { "src" : "/assets/about/AboutSlideShow3.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow4.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow5.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow6.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow7.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow8.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow9.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow10.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow11.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow12.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow13.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow14.jpg" , "alt" : "" } ,
+                                        { "src" : "/assets/about/AboutSlideShow15.jpg" , "alt" : "" } ] `;
+
+                    include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-slideshow.php';   
+                ?>                     
+            </div>
+            <div class="col-12"> <!-- Slideshow 2 -->
+
                 <div id="carouselControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow1.jpg" height="320" width="500" alt="First slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow1.jpg" height="320" width="500" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow2.jpg" height="320" width="500" alt="Second slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow2.jpg" height="320" width="500" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow3.jpg" height="320" width="500" lt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow3.jpg" height="320" width="500" lt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow4.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow4.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow5.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow5.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow6.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow6.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow7.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow7.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow8.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow8.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow9.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow9.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow10.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow10.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow11.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow11.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow12.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow12.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow13.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow13.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow14.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow14.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow15.jpg" height="320" width="500" alt="Third slide">
+                            <img class="d-block img-fluid" src="/assets/about/AboutSlideShow15.jpg" height="320" width="500" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
