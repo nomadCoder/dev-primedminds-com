@@ -120,49 +120,49 @@
                 <div id="carouselControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow1.jpg" alt="First slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow1.jpg" height="320" width="500" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow2.jpg" alt="Second slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow2.jpg" height="320" width="500" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow3.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow3.jpg" height="320" width="500" lt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow4.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow4.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow5.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow5.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow6.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow6.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow7.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow7.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow8.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow8.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow9.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow9.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow10.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow10.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow11.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow11.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow12.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow12.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow13.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow13.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow14.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow14.jpg" height="320" width="500" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow15.jpg" alt="Third slide">
+                        <img class="d-block img-fluid" src="/assets/about/AboutSlideShow15.jpg" height="320" width="500" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
@@ -178,13 +178,13 @@
         </div>
         <div class="row">
             <div class="col-4">
-                <img class="rounded" src="assets/about/RufusWilliams.jpg" height="140px"></img>
+                <img class="rounded" src="/assets/about/RufusWilliams.jpg" height="140px"></img>
             </div>
             <div class="col-4">
-                <img class="rounded" src="assets/about/VShubin.jpg" height="140px"></img>
+                <img class="rounded" src="/assets/about/VShubin.jpg" height="140px"></img>
             </div>
             <div class="col-4">
-                <img class="rounded" src="assets/about/RobPollack.jpg" height="140px"></img>
+                <img class="rounded" src="/assets/about/RobPollack.jpg" height="140px"></img>
             </div>
         </div>    
     </div>
