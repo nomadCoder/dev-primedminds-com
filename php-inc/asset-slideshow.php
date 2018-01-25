@@ -17,13 +17,16 @@
 
             <?php
                 $array = json_decode( $slide_images, true );
+                print $array;
                 $i = 0;
                 $active_item = " active";
                 foreach ($array as $value) {
                     if ($i != 0 ) { $active_item = ""; }
+                    
                     print '<div class="carousel-item' + $active_item + '">';
                     print '<img class="d-block img-fluid" src="' + $value['src'] + ' alt="' + $value['alt'] + '">';
                     print '</div>';
+                    
                     $i++;
                 }
             ?>
