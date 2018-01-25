@@ -115,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
             <div class="col-8"> <!-- Slideshow 1 -->
                 <?php
                     /*
