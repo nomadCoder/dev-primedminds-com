@@ -17,7 +17,7 @@
 
             <?php
                 $array = json_decode( $slide_images, true );
-                print $array;
+                var_dump($array);
                 $i = 0;
                 $active_item = " active";
                 foreach ($array as $value) {
