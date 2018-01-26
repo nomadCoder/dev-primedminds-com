@@ -20,12 +20,11 @@
                 var_dump($array);
                 $i = 0;
                 $active_item = " active";
-                foreach ($array as &$value) {
+                foreach ($array as $key => $value) {
                     if ($i != 0 ) { $active_item = ""; }
                     print '<div class="carousel-item' + $active_item + '">';
-                    print '<img class="d-block img-fluid" src="' + $value["src"] + ' alt="' + $value["alt"] + '">';
+                    print '<img class="d-block img-fluid" src="' + $value["src"] + '" alt="' + $value["alt"] + '">';
                     print '</div>';
-                    
                     $i++;
                 }
             ?>
