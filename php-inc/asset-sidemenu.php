@@ -16,7 +16,6 @@
 
     <?php
         $array = json_decode( $menu_content, true );
-        print $array;
         $i = 0;
         $active_item = " active";
         foreach ($array as $value) {
