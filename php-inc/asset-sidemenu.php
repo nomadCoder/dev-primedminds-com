@@ -19,15 +19,15 @@
         print $array;
         $i = 0;
         $active_item = " active";
-        foreach ($array as &$value) {
+        foreach ($array as $value) {
             if ($i != 0 ) { $active_item = ""; }
-            $item_head = "heading" + $i;
-            $item_content = "collapse" + $i;
+            $item_head = "heading" . $i;
+            $item_content = "collapse" . $i;
             print '<div class="card">';
-            print '  <div class="card-header card-head-style" role="tab" id="' + $item_head + '">';
-            print '    <h5 class="mb-0"><a data-toggle="collapse" href="#' + $item_content + '" aria-expanded="true" aria-controls="collapseOne">' + $value["title"]; + '</a></h5>';
+            print '  <div class="card-header card-head-style" role="tab" id="' . $item_head . '">';
+            print '    <h5 class="mb-0"><a data-toggle="collapse" href="#' . $item_content . '" aria-expanded="true" aria-controls="collapseOne">' . $value["title"]; . '</a></h5>';
             print '  </div>';
-            print '  <div id="' + $item_content + '" class="collapse" role="tabpanel" aria-labelledby="' + $item_head + '" data-parent="#accordion"><div class="card-body redbg">' + $value["content"] + '</div></div>';
+            print '  <div id="' . $item_content . '" class="collapse" role="tabpanel" aria-labelledby="' . $item_head . '" data-parent="#accordion"><div class="card-body redbg">' . $value[‘content’] . '</div></div>';
             print '</div>';    
             $i++;
         }
