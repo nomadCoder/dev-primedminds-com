@@ -30,8 +30,8 @@
                     */
                     
                     $menu_content = ' [ {   "title" : "What is Primed Minds?" ,  
-                                            "content" : "<p>Primed Minds is a tool to inspire you mathematically!<\\\/p>\n<p>Showcasing the joy and beauty inherent in mathematics, our Explorations, unlike traditional presentations, are a wild affair that impart the thrill of discovery by alternately entertaining and actively engaging. <\\\/p>\n<p>Each <a href=\\\"\\\/explore/index.php\\\">Exploration</a> consists of a sequence of short entertaining videos (30-90 second), and interactive content that immerse you in the experience of being a real mathematician! You&#39ll experience how a dead-end alley becomes an A-ha moment. You&#39ll smell the mathematical flowers that blossom around intractable unsolved mysteries. And you might even learn a little math along the way. <\\\/p>" } ]';
-                    
+                                            "content" : "Primed Minds is a tool to inspire you mathematically!" } 
+                                      ] ';
 
                     include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-sidemenu.php';                  
                 ?>
