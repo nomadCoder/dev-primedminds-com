@@ -16,6 +16,8 @@
         <div class="row">
             <div class="col-4"> <!-- Side page menu -->
 
+
+
                 <?php 
                     /* For the "content" below please ensure that in the content you include \\\" for any double quotes and no ' are included in the text */
                     /*
@@ -28,16 +30,15 @@
                                     ] '; 
 
                     */
+                    /* this has not yet been finalised due to issues parsing the html in the json, on hold to speed design and dev of remaining site
                     
-                    $menu_content = ' [ {   "title" : "What is Primed Minds?" ,  
-                                            "content" : "Primed Minds is a tool to inspire you mathematically!" } 
-                                      ] ';
-
-                    include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-sidemenu.php';                  
+                    include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-sidemenu.php'; 
+                    
+                    */
                 ?>
 
 
-            <!--
+
                 <div id="accordion" role="tablist">
                     <div class="card">
                         <div class="card-header card-head-style" role="tab" id="headingOne">
@@ -138,9 +139,6 @@
                         </div>
                     </div>
                 </div>
--->
-
-            <!-- </div> -->
 
             </div>
             <div class="col-8"> <!-- Slideshow 1 -->
