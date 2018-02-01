@@ -162,6 +162,8 @@ background-color: red !important;
 padding: 2px;
 }
 
+/*
+
 .card-head-style {
     background-color: red !important;
     margin: 5px;
@@ -178,4 +180,19 @@ padding: 2px;
 .card-body-style {
 background-color: yellow !important;
 }
+*/
 
+.card {
+  border: none;
+}
+
+.card-header {
+  @extend .h4;
+  background-color: red;
+  border-radius: 20px;
+}
+
+.card-body {
+  background-color: yellow;
+  padding: 10px;
+}
