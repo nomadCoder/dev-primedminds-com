@@ -24,6 +24,7 @@ footer {
     padding: 0;
     margin: auto;
     max-width: 1200px;
+    display: block;
 }
 
 #logo {
@@ -166,14 +167,17 @@ a.navbar-brand:hover, a.navbar-brand:active {
     border: none;
 }
 
-.card-header, card-header h5 a {
+.card-header, .card-header h5 a {
     background-color: red;
     border-radius: 30px !important;
     text-decoration: none;
     box-shadow: 2px 2px 1px #888888;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .card-body {
     background-color: yellow;
     padding: 10px;
+    border-radius: 30px !important;
 }
