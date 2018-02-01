@@ -158,41 +158,22 @@ a.navbar-brand:hover, a.navbar-brand:active {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-background-color: red !important;
-padding: 2px;
-}
-
-/*
-
-.card-head-style {
     background-color: red !important;
-    margin: 5px;
-    color: #fff;
-    box-shadow: 2px 2px 1px;
-    border-radius: 20px;
-    transition: all .2s ease-in-out;
+    padding: 2px;
 }
 
-.card-head-style hover {
-    transform: scale(1.1);
+.card  {
+    border: none;
 }
 
-.card-body-style {
-background-color: yellow !important;
-}
-*/
-
-.card {
-  border: none;
-}
-
-.card-header {
-  @extend .h4;
-  background-color: red;
-  border-radius: 20px;
+.card-header, card-header h5 a {
+    background-color: red;
+    border-radius: 30px !important;
+    text-decoration: none;
+    box-shadow: 2px 2px 1px #888888;
 }
 
 .card-body {
-  background-color: yellow;
-  padding: 10px;
+    background-color: yellow;
+    padding: 10px;
 }

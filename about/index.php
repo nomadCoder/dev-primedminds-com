@@ -41,7 +41,7 @@
 
                 <div id="accordion" role="tablist">
                     <div class="card">
-                        <div class="card-header card-head-style" role="tab" id="headingOne">
+                        <div class="card-header" role="tab" id="headingOne">
                             <h5 class="mb-0">
                                 <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 What is Primed Minds?
@@ -49,7 +49,7 @@
                             </h5>
                         </div>
                         <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body card-body-style">
+                            <div class="card-body">
                                 <p>Primed Minds is a tool to inspire you mathematically!<\\\/p>
                                 <p>Showcasing the joy and beauty inherent in mathematics, our Explorations, unlike traditional presentations, are a wild affair that impart the thrill of discovery by alternately entertaining and actively engaging. <\\\/p>
                                 <p>Each <a href="/explore/index.php">Exploration</a> consists of a sequence of short entertaining videos (30-90 second), and interactive content that immerse you in the experience of being a real mathematician! You'll experience how a dead-end alley becomes an A-ha moment. You'll smell the mathematical flowers that blossom around intractable unsolved mysteries. And you might even learn a little math along the way. <\\\/p>
@@ -140,7 +140,6 @@
                     </div>
                 </div>
 
-            </div>
             <div class="col-8"> <!-- Slideshow 1 -->
                 <?php
                     
@@ -163,6 +162,8 @@
                     include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-slideshow.php';   
                 ?>                     
             </div>
+
+
             <!--
             <div class="col-12"> 
 
