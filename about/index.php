@@ -16,8 +16,6 @@
         <div class="row">
             <div class="col-4"> <!-- Side page menu -->
 
-
-
                 <?php 
                     /* For the "content" below please ensure that in the content you include \\\" for any double quotes and no ' are included in the text */
                     /*
@@ -36,8 +34,6 @@
                     
                     */
                 ?>
-
-
 
                 <div id="accordion" role="tablist">
                     <div class="card">
@@ -140,7 +136,7 @@
                     </div>
                 </div>
 
-            <div class="col-8"> <!-- Slideshow 1 -->
+            <div class="col-8"> <!-- Start slideshow column -->
                 <?php
                     
                     $slide_images = ' [ { "src" : "/assets/about/AboutSlideShow1.jpg" , "alt" : "" } ,
@@ -161,7 +157,7 @@
 
                     include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-slideshow.php';   
                 ?>                     
-            </div>
+            </div> <!-- End slideshow column -->
 
         </div> <!-- End first row on page -->
 
