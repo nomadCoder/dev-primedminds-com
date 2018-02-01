@@ -12,8 +12,8 @@
 <!-- START: page content -->
 
 <div id="main">
-    <div class="canvas">
-        <div class="row">
+    <!-- <div class="canvas"> -->
+        <div class="row canvas">
             <div class="col-4"> <!-- Side page menu -->
 
                 <?php 
@@ -159,9 +159,9 @@
                 ?>                     
             </div> <!-- End slideshow column -->
 
-        </div> <!-- End first row on page -->
+        </div>
 
-        <div class="row">
+        <div class="row canvas">
             <div class="col-4">
                 <a data-toggle="collapse" href="#bio01" aria-expanded="false" aria-controls="bio01">
                     <img class="rounded" src="/assets/about/RufusWilliams.jpg" height="140px">
@@ -178,7 +178,7 @@
                 </a>
             </div>
         </div>   
-        <div class="row">
+        <div class="row canvas">
             <div class="col-12">
                 <div class="collapse" id="bio01">
                     <div class="card card-block">
@@ -204,7 +204,7 @@
             </div>
         </div>    
         
-        <div class="row">
+        <div class="row canvas">
             <div class="col-4">
                 <a data-toggle="collapse" href="#partner01" aria-expanded="false" aria-controls="partner01">
                     <img src="assets/about/gmp_uplifting.jpg" title="Global Math Project">
@@ -243,7 +243,7 @@
                 </div>
             </div>
         </div>  
-    </div>
+    <!-- </div> -->
 </div>    
 
         <!-- contact us button ***REMOVED AS MAY BE ON FOOTER, NEED TO DOUBLE CHECK ******
