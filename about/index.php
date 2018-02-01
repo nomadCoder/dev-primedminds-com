@@ -207,17 +207,17 @@
         <div class="row canvas">
             <div class="col-4">
                 <a data-toggle="collapse" href="#partner01" aria-expanded="false" aria-controls="partner01">
-                    <img src="assets/about/gmp_uplifting.jpg" title="Global Math Project">
+                    <img src="/assets/about/gmp_uplifting.jpg" title="Global Math Project">
                 </a>    
             </div>
             <div class="col-4">
                 <a data-toggle="collapse" href="#partner02" aria-expanded="false" aria-controls="partner02">
-                    <img src="assets/about/mathspathway.jpg" title="Maths Pathway">
+                    <img src="/assets/about/mathspathway.jpg" title="Maths Pathway">
                 </a>
             </div>
             <div class="col-4">
                 <a data-toggle="collapse" href="#partner03" aria-expanded="false" aria-controls="partner03">
-                    <img src="assets/about/betterexplained.jpg" title="Better Explained">
+                    <img src="/assets/about/betterexplained.jpg" title="Better Explained">
                 </a>
             </div>
         </div>   
