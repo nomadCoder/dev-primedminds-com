@@ -162,9 +162,9 @@
         </div>
 
         <div class="row canvas">
-            <div class="col-4">
+            <div class="col-4 text-center”>
                 <a data-toggle="collapse" href="#bio01" aria-expanded="false" aria-controls="bio01">
-                    <img class="rounded" src="/assets/about/RufusWilliams.jpg" height="140px">
+                    <img class="rounded-circle" src="/assets/about/RufusWilliams.jpg" height="140px">
                 </a>    
             </div>
             <div class="col-4">
