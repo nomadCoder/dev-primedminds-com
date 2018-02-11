@@ -167,8 +167,9 @@ a.navbar-brand:hover, a.navbar-brand:active {
     padding: 2px;
 }
 
-.carousel {
-    height: 450px !important;
+.carousel.item {
+    width: 100%;
+    height: auto;
 }
 
 .card  {
