@@ -139,21 +139,21 @@
             <div class="col-8"> <!-- Start slideshow column -->
                 <?php
                     
-                    $slide_images = ' [ { "src" : "/media/slideshow/about/AboutSlideShow1.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow2.jpg" , "alt" : "" } , 
-                                        { "src" : "/media/slideshow/about/AboutSlideShow3.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow4.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow5.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow6.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow7.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow8.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow9.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow10.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow11.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow12.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow13.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow14.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow15.jpg" , "alt" : "" } ] ';
+                    $slide_images = ' [ { "src" : "/media/slideshow/about/AboutSlideShow1.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow2.png" , "alt" : "" } , 
+                                        { "src" : "/media/slideshow/about/AboutSlideShow3.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow4.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow5.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow6.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow7.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow8.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow9.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow10.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow11.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow12.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow13.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow14.png" , "alt" : "" } ,
+                                        { "src" : "/media/slideshow/about/AboutSlideShow15.png" , "alt" : "" } ] ';
 
                     include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-slideshow.php';   
                 ?>                     
