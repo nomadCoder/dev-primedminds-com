@@ -141,6 +141,7 @@
     </div>
 
     <div class="row canvas">
+        <h2>Bios</h2>
         <div class="col-4 text-center">
             <a data-toggle="collapse" href="#bio01" aria-expanded="false" aria-controls="bio01">
                 <img class="rounded-circle" src="/assets/about/RufusWilliams.jpg" height="140px">
@@ -184,6 +185,7 @@
     </div>    
     
     <div class="row canvas">
+        <h2>Partners</h2>
         <div class="col-4">
             <a data-toggle="collapse" href="#partner01" aria-expanded="false" aria-controls="partner01">
                 <img src="/assets/about/gmp_uplifting.jpg" title="Global Math Project">
