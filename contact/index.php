@@ -1,7 +1,7 @@
 <?php 
     // Set page variables
     
-    $pageTitle = "About"; // Variable to append the page title "Primed Minds" with " - <pageTitle>"
+    $pageTitle = "FAQ"; // Variable to append the page title "Primed Minds" with " - <pageTitle>"
     // $addHeadCode = '<style type="text/css"> body { background-color: #000; } </style>'; // Variable to add any additional code to the head for the page
 
     // Include the document start and standard page header
@@ -153,7 +153,7 @@
                                         { "src" : "/media/slideshow/about/AboutSlideShow12.jpg" , "alt" : "" } ,
                                         { "src" : "/media/slideshow/about/AboutSlideShow13.jpg" , "alt" : "" } ,
                                         { "src" : "/media/slideshow/about/AboutSlideShow14.jpg" , "alt" : "" } ,
-                                        { "src" : "/media/slideshow/about/AboutSlideShow15.jpg" , "alt" : "" } ] ';
+                                        { "src" : "/media/slideshow/about/AboutSlideShow15.jpg" , "alt" : "" } ] '; 
 
                     include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-slideshow.php';   
                 ?>                     
@@ -162,17 +162,17 @@
         </div>
 
         <div class="row canvas">
-            <div class="col-4 text-center">
+            <div class="col-4" align="center">
                 <a data-toggle="collapse" href="#bio01" aria-expanded="false" aria-controls="bio01">
                     <img class="rounded-circle" src="/assets/about/RufusWilliams.jpg" height="140px">
                 </a>    
             </div>
-            <div class="col-4" align="center">
+            <div class="col-4 text-center">
                 <a data-toggle="collapse" href="#bio02" aria-expanded="false" aria-controls="bio02">
                     <img class="rounded-circle" src="/assets/about/VShubin.jpg" height="140px">
                 </a>
             </div>
-            <div class="col-4">
+            <div class="col-4 text-center">
                 <a data-toggle="collapse" href="#bio02" aria-expanded="false" aria-controls="bio02">
                     <img class="rounded-circle" src="/assets/about/RobPollack.jpg" height="140px">
                 </a>

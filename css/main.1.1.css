@@ -1,5 +1,10 @@
+/* Style notes
+    main red style colour is:     #dc2222
+    main yellow style colour is:  #ffe900
+*/
+
 header {
-    background-color: red;
+    background-color: #dc2222;
 }
 
 .navbar-toggler-icon {
@@ -8,7 +13,7 @@ header {
 }
 
 footer {
-    background-color: red;
+    background-color: #dc2222;
     padding-top: 1rem;
     color: lightgray;
     width: 100%;
@@ -44,8 +49,8 @@ body nav *, body nav a:hover, body nav a:active  {
 }
 
 body nav a:hover, body nav a:active  {
-    background-color: yellow;
-    color: red;
+    background-color: #ffe900;
+    color: #dc2222;
 }
 
 a.navbar-brand:hover, a.navbar-brand:active {
@@ -55,7 +60,7 @@ a.navbar-brand:hover, a.navbar-brand:active {
 .sub-menu, .sub-menu li a {
     color: #fff;
     text-decoration: none;
-    background-color: red;
+    background-color: #dc2222;
     padding: 8px;
     margin: 0;
     border: none;
@@ -65,9 +70,9 @@ a.navbar-brand:hover, a.navbar-brand:active {
 
 .sub-menu li a:active, .sub-menu li a:hover {
     /* color: #F44336; changed to match the red of the menu */
-    color: red;
+    color: #dc2222;
     text-decoration: none;
-    background-color: yellow;
+    background-color: #ffe900;
 }
 
 .sidebar-nav {
@@ -158,7 +163,7 @@ a.navbar-brand:hover, a.navbar-brand:active {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: red !important;
+    background-color: #dc2222 !important;
     padding: 2px;
 }
 
@@ -167,7 +172,7 @@ a.navbar-brand:hover, a.navbar-brand:active {
 }
 
 .card-header  {
-    background-color: red;
+    background-color: #dc2222;
     border-radius: 30px !important;
     box-shadow: 2px 2px 1px #888888;
     margin-top: 10px;
@@ -180,7 +185,13 @@ a.navbar-brand:hover, a.navbar-brand:active {
 }
 
 .card-body {
-    background-color: yellow;
+    background-color: #ffe900;
+    padding: 10px;
+    border-radius: 30px !important;
+}
+
+.card-block {
+    background-color: #ffe900;
     padding: 10px;
     border-radius: 30px !important;
 }

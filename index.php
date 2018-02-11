@@ -12,8 +12,8 @@
 <!-- START: page content -->
 
 <div class="videoContainer embed-responsive embed-responsive-16by9">
-    <video playsinline autoplay muted loop class="embed-responsive-item" id="homeVideo">
-       <source src="assets/index/PMWelcomeVideo.mp4" type="video/mp4">
+    <video playsinline autoplay muted controls loop class="embed-responsive-item" id="homeVideo">
+       <source src="http://d86lxw68r0a7o.cloudfront.net/site-videos/HomePage1920-mpeg4-q08.mp4" type="video/mp4">
     </video>
 </div>
 
