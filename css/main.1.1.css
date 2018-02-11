@@ -190,8 +190,8 @@ a.navbar-brand:hover, a.navbar-brand:active {
 }
 
 .card-body {
-    background-color: #ffe900;
-    padding: 10px;
+    background-color: #ffe900 !important;
+    padding: 10px !important;
     border-radius: 30px !important;
 }
 
