@@ -12,10 +12,10 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="/index.php">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#">About</a>
+                    <a class="nav-link" data-toggle="dropdown" href="/about/index.php">About</a>
                     <ul class="dropdown-menu sub-menu">
                         <li class="nav-item"><a href="/about/index.php" class="nav-link">About Primed Minds</a></li>
                         <li class="nav-item"><a href="/about/index.php#team" class="nav-link">The Team</a></li>
@@ -38,10 +38,10 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="/faq/index.php">FAQ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="/contact/index.php">Contact</a>
                 </li>
             </ul>
         </div>
