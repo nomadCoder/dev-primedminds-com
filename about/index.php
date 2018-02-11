@@ -15,26 +15,6 @@
     <!-- <div class="canvas"> -->
         <div class="row canvas">
             <div class="col-4"> <!-- Side page menu -->
-
-                <?php 
-                    /* For the "content" below please ensure that in the content you include \\\" for any double quotes and no ' are included in the text */
-                    /*
-                    $menu_content = ' [ {   "title" : "What is Primed Minds?" ,  "content" : "<p>Primed Minds is a tool to inspire you mathematically!</p>\n<p>Showcasing the joy and beauty inherent in mathematics, our Explorations, unlike traditional presentations, are a wild affair that impart the thrill of discovery by alternately entertaining and actively engaging. </p>\n<p>Each <a href=\\\"\\\/explore/index.php\\\">Exploration</a> consists of a sequence of short entertaining videos (30-90 second), and interactive content that immerse you in the experience of being a real mathematician! You&#39ll experience how a dead-end alley becomes an A-ha moment. You&#39ll smell the mathematical flowers that blossom around intractable unsolved mysteries. And you might even learn a little math along the way. </p>" }
-                                      , {   "title" : "Who is this for?" , "content" : "<p>Primed Minds is aimed squarely at middle and high school students, though many of the Explorations are actually accessible to grade-schoolers. This is not your standard curriculum. Primed Minds is designed to inspire interest, rather than educate on specifics. </p>\n<p>While familiarity with some very basic concepts is sometimes assumed, even in those cases interest is often piqued well before formal understanding sinks in. </p>\n<p>Anyone curious to explore the magical land of the mind will enjoy our Explorations. Mathematics is, afterall, the one thing we can be sure that aliens too will appreciate. </p>" }
-                                      , {   "title" : "Philosophy" , "content" : "<p>Before taking your retinue to a new territory, you launch an exploration. You get a taste and decide whether heading out even makes sense. </p>\n<p>Unfortunately, unlike language arts where we inspire children with great works of fiction before miring them in the drudgery of spelling and grammar, mathematics is traditionally taught by adhering to a didactic approach of presentational lessons followed by drills.</p>\n<p>The thing is, we make the most effort and learn best when we&#39re excited.</p>\n<p>With this thinking in mind, the Explorations on Primed Minds are designed to inspire rather than teach. It&#39s a radical idea!</p>\n<p>The first time we encounter new ideas, they are fuzzy, and that&#39s okay! Nobody understands all the themes and motifs in Winnie the Pooh the first time they read it (or more likely, are read it), the book simply becomes richer with each pass. So it is with mathematics and it&#39s time it was presented with this in mind.</p>\n<p>Finally, the pedagogical reasoning behind the structure of Primed Minds&#39 Explorations is simple. Short, light and quickly paced videos inject energy, context and excitement, while interactive puzzles foster engagement and help solidify concepts. The interactive portions also give very natural breathing room, permitting students to adjust the pace of their progress to their understanding (something that videos alone struggle with).</p>" }   
-                                      , {   "title" : "What is mathematics anyway?" , "content" : "<p>Mathematics is to think deeply about simple things.</p>\n<p>And doing so is <b>fun<\\\/b>!!</p>\n<p>Mathematics is about exploring ideas that present themselves as puzzles, intriguing patterns, connections and sheer beauty.</p>" }  
-                                      , {   "title" : "How do I try an Exploration?" , "content" : "<p>There&#39s been enough talk, just <a href=\\\"/explorations.html\\\">pick one<\\\/a> and dive in!</p>" }   
-                                      , {   "title" : "Are there any teacher resources?" , "content" : "<p>Yes! We have lesson plans to accompany Exlporations that expand and relate materials to standard curriculum. Check our <a href=\\\"/resources.html\\\">Resources Page<\\\/a> for more information</p>" }                                                                       
-                                    ] '; 
-
-                    */
-                    /* this has not yet been finalised due to issues parsing the html in the json, on hold to speed design and dev of remaining site
-                    
-                    include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-sidemenu.php'; 
-                    
-                    */
-                ?>
-
                 <div id="accordion" role="tablist">
                     <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
@@ -116,7 +96,7 @@
                         </div>
                         <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
                             <div class="card-body">
-                                <p>There's been enough talk, just <a href="/explorations.html">pick one</a> and dive in!</p>                      </div>
+                                <p>There's been enough talk, just <a href="/explorations.html">pick one</a> and dive in!</p>
                             </div>    
                         </div>
                     </div>
@@ -135,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
             <div class="col-8"> <!-- Start slideshow column -->
                 <?php
                     
