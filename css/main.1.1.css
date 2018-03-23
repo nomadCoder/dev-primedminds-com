@@ -209,4 +209,6 @@ a.navbar-brand:hover, a.navbar-brand:active {
     left: 0;
     width: 100%;
     height: 100%;
+    text-decoration: none;
+    color: #ffffff;
 }
