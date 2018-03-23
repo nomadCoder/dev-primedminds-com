@@ -184,7 +184,7 @@ a.navbar-brand:hover, a.navbar-brand:active {
     margin-bottom: 10px;
 }
 
-.card-header h5 a, .card-header a {
+.card-header h5 a, .card-header a, .card-header a:visited, .card-header a:active, .card-header a:hover,   {
     text-decoration: none;
     color: #ffffff;
 }
