@@ -202,7 +202,7 @@ a.navbar-brand:hover, a.navbar-brand:active {
 }
 
 .card-link {
-    position: absolute; 
+    position: sticky; 
     top: 0;
     left: 0;
     width: 100%;
