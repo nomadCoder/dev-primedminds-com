@@ -108,21 +108,21 @@
        <div class="col-8"> <!-- Start slideshow column -->
             <?php
             
-                $slide_images = ' [ { "src" : "/media/slideshow/faq/ChocolateFractions1.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions2.png" , "alt" : "" } , 
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions3.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions4.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions5.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions6.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions7.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions8.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions9.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions10.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions11.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions12.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions13.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions14.png" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions15.png" , "alt" : "" } ] ';
+                $slide_images = ' [ { "src" : "/media/slideshow/faq/ChocolateFractions1.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions2.jpg" , "alt" : "" } , 
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions3.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions4.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions5.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions6.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions7.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions8.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions9.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions10.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions11.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions12.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions13.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions14.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions15.jpg" , "alt" : "" } ] ';
 
                 include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-slideshow.php';   
             ?>                     
