@@ -18,10 +18,7 @@
                 <div class="card">
                     <div class="card-header" role="tab" id="headingOne">
                         <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="card-link">
-                            <h5 class="mb-0">
-                                What is Primed Minds?
-                                </a>
-                            </h5>
+                            <h5 class="mb-0">What is Primed Minds?</h5>
                         </a>
                     </div>
                     <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
@@ -35,8 +32,8 @@
                 <div class="card">
                     <div class="card-header" role="tab" id="headingTwo">
                         <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="card-link">
+                            <h5 class="mb-0">Who is this for?</h5>
                         </a>
-                        <h5 class="mb-0">Who is this for?</h5>
                     </div>
                     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body"> 
@@ -48,11 +45,9 @@
                 </div>
                 <div class="card">
                     <div class="card-header" role="tab" id="headingThree">
-                        <h5 class="mb-0">Philosophy</h5>
-                            <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="card-link">
-                            
-                            </a>
-                        
+                        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="card-link">
+                            <h5 class="mb-0">Philosophy</h5>
+                        </a>
                     </div>
                     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
