@@ -17,7 +17,7 @@
             <div id="accordion" role="tablist">
                 <div class="card">
                     <div class="card-header" role="tab" id="headingOne">
-                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="position: absolute; top: 0;left: 0;height: 100%;width: 100%;">
+                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="card-link">
                             <h5 class="mb-0">
                                 What is Primed Minds?
                                 </a>
@@ -203,7 +203,7 @@
             </a>
         </div>
     </div>   
-    <div class="row">
+    <div class="row canvas">
         <div class="col-12">
             <div class="collapse" id="partner01">
                 <div class="card card-block">
