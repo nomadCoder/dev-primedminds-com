@@ -14,7 +14,7 @@
 <div id="main">
     <!-- <div class="canvas"> -->
         <div class="row canvas">
-            <div class="col-12"> <!-- Side page menu -->
+            <div class="col-4"> <!-- Side page menu -->
 
                 <div id="accordion" role="tablist">
                     <div class="card">
@@ -106,8 +106,34 @@
                     </div>
                 </div>
             </div>
-        </div>   
-    <!-- </div> -->
+        </div> 
+
+        <div class="col-8"> <!-- Start slideshow column -->
+            <?php
+                
+                $slide_images = ' [ { "src" : "/media/slideshow/faq/ChocolateFractions1.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions2.png" , "alt" : "" } , 
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions3.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions4.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions5.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions6.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions7.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions8.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions9.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions10.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions11.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions12.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions13.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions14.png" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions15.png" , "alt" : "" } ] ';
+
+                include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-slideshow.php';   
+            ?>                     
+        </div> <!-- End slideshow column -->  
+    
+    
+
+
 </div>    
 
         <!-- contact us button ***REMOVED AS MAY BE ON FOOTER, NEED TO DOUBLE CHECK ******
