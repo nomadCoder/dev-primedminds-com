@@ -20,11 +20,9 @@ footer {
 }
 
 #main {
-    position: fixed;
+    position: absolute;
     top: 85px;
     width: 100%;
-    height: 100%;
-    overflow: scroll;
 }
 
 .canvas {
