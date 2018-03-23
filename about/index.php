@@ -45,7 +45,7 @@
                 </div>
                 <div class="card">
                     <div class="card-header" role="tab" id="headingThree">
-                        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             <h5 class="mb-0">Philosophy</h5>
                         </a>
                     </div>
@@ -65,11 +65,9 @@
                 </div>
                 <div class="card">
                     <div class="card-header" role="tab" id="headingFour">
-                        <h5 class="mb-0">
-                            <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            What is mathematics anyway?
-                            </a>
-                        </h5>
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <h5 class="mb-0">What is mathematics anyway?</h5>
+                        </a>
                     </div>
                     <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
@@ -81,11 +79,9 @@
                 </div>
                 <div class="card">
                     <div class="card-header" role="tab" id="headingFive">
-                        <h5 class="mb-0">
-                            <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            How do I try an Exploration?
-                            </a>
-                        </h5>
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <h5 class="mb-0">How do I try an Exploration?</h5>
+                        </a>
                     </div>
                     <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
                         <div class="card-body">
@@ -95,11 +91,9 @@
                 </div>
                 <div class="card">
                     <div class="card-header" role="tab" id="headingSix">
-                        <h5 class="mb-0">
-                            <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            Are there any teacher resources?
-                            </a>
-                        </h5>
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <h5 class="mb-0">Are there any teacher resources?</h5>
+                        </a>
                     </div>
                     <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion">
                         <div class="card-body">
