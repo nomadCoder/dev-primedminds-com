@@ -17,11 +17,12 @@
             <div id="accordion" role="tablist">
                 <div class="card">
                     <div class="card-header" role="tab" id="headingOne">
-                        <h5 class="mb-0">
-                            <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What is Primed Minds?
-                            </a>
-                        </h5>
+                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="position: absolute; top: 0;left: 0;height: 100%;width: 100%;">
+                            <h5 class="mb-0">
+                                What is Primed Minds?
+                                </a>
+                            </h5>
+                        </a>
                     </div>
                     <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
