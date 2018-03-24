@@ -23,12 +23,13 @@ footer {
     position: absolute;
     top: 85px;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .canvas {
     padding: 0;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1600px;
 }
 
 #logo {
