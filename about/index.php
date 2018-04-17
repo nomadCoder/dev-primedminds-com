@@ -16,11 +16,20 @@
         <div class="col-4"> <!-- Side page menu -->
             <div id="accordion" role="tablist">
                 <div class="card">
+                <!--
                     <div class="card-header" role="tab" id="headingOne">
                         <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             <h5 class="mb-0">What is Primed Minds?</h5>
                         </a>
                     </div>
+                -->    
+                    <div class="card-header" role="tab" id="headingOne">
+                        <a class="collapsed btn-primary" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            What is Primed Minds?
+                        </a>
+                    </div>
+
+
                     <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
                             <p>Primed Minds is a tool to inspire you mathematically!</p>
