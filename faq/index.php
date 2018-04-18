@@ -17,11 +17,9 @@
 
             <div id="accordion" role="tablist">
                 <div class="card">
-                    <div class="card-header" role="tab" id="headingOne">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <h5 class="mb-0">What is Primed Minds?</h5>
-                        </a>
-                    </div>
+                    <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="btn-primary card-header" role="tab" id="headingOne">What is Primed Minds?</div>
+                    </a>
                     <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
                             <p>Primed Minds is a tool to inspire you mathematically!</p>
@@ -32,11 +30,9 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <div class="card-header" role="tab" id="headingTwo">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h5 class="mb-0">Are there any teacher resources?</h5>
-                        </a>
-                    </div>
+                    <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="btn-primary card-header" role="tab" id="headingTwo">Are there any teacher resources?</div>
+                    </a>
                     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body"> 
                             <p>Yes, there are! Check out our resources <a href="/resources/index.php">here</a>!</p>
@@ -44,11 +40,9 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <div class="card-header" role="tab" id="headingThree">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h5 class="mb-0">The explorations are too easy</h5>
-                        </a>
-                    </div>
+                    <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="btn-primary card-header" role="tab" id="headingThree">The explorations are too easy</div>
+                    </a>
                     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
                             <p>That may be the case, but easy or hard is not really the point. Eating a great meal is really easy, but you still get great value out of it. If you’re hungry for more, send us a note and we’ll send you something new to mull over or simply point you in the direction of some related and interesting mathematical terrain to explore further.</p>
@@ -56,11 +50,9 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <div class="card-header" role="tab" id="headingFour">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            <h5 class="mb-0">The explorations are too hard</h5>
-                        </a>
-                    </div>
+                    <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="btn-primary card-header" role="tab" id="headingFour">The explorations are too hard</div>
+                    </a>
                     <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
                             <p>That may be the case, but easy or hard is not really the point. When you first read Winnie The Pooh, you certainly didn’t understand all the alliteration and thematic underpinnings, but you enjoyed it (if you haven’t read Winnie The Pooh, you should do so right away, regardless of your age). Hopefully it inspired you. In the same spirit, without understanding everything, hopefully mathematics seems a little more fun now. But try another <a href="explorations/index.php">Exploration</a>, and ask your teacher or your parents about getting the teaching materials for your class or at home. The <a href="/resources/index.php">Teacher Materials</a> really flesh out these 30,000 foot Explorations.</p>
@@ -68,11 +60,9 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <div class="card-header" role="tab" id="headingFive">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            <h5 class="mb-0">There was stuff I don't understand</h5>
-                        </a>
-                    </div>
+                    <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <div class="btn-primary card-header" role="tab" id="headingFive">There was stuff I don't understand</div>
+                    </a>
                     <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
                         <div class="card-body">
                             <p>Hey there’s stuff we don’t understand, that doesn’t mean it isn’t interesting to explore! Many of our Explorations tread very closely to problems that are alive and well in cutting edge research mathematics. They are designed to give you a glimpse of the frontiers, in much the same way visiting a great museum does for art or science.</p>
@@ -80,11 +70,9 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-header" role="tab" id="headingSix">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            <h5 class="mb-0">Are there explosions in every Exploration?</h5>
-                        </a>
-                    </div>
+                    <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <div class="btn-primary card-header" role="tab" id="headingSix">Are there explosions in every Exploration?</div>
+                    </a>
                     <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion">
                         <div class="card-body">
                             <p>I kind of see the explosions as a metaphor for coming off the race track. It has been said that if you don't come off the race track once in a while, then you're probably not pushing hard enough. It's the same with mathematics. The great mathematician Goro Shimura encapsulated this very well when talking about one of his collaborators: "Taniyama was not a very careful person as a mathematician. He made a lot of mistakes, but he made mistakes in a good direction, and so eventually, he got right answers, and I tried to imitate him, but I found out that it is very difficult to make good mistakes." In short, it is good to practice making mistakes.</p>    

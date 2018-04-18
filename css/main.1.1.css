@@ -182,7 +182,7 @@ a.navbar-brand:hover, a.navbar-brand:active {
     border: none;
 }
 
-.card-header  {
+.card-header, a .btn-primary  {
     background-color: #dc2222;
     color: #ffffff;
     border-radius: 30px !important;
@@ -192,17 +192,10 @@ a.navbar-brand:hover, a.navbar-brand:active {
     font-size: 1.25rem;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active {
+a .card-header, a .btn-primary:hover, a .btn-primary:focus, a .btn-primary:active {
     background-color: #dc2222 !important; 
-}
-
-a .card-header {
     text-decoration: none;
     color: #ffffff;
-    background-color: #dc2222;
 }
 
 .card-header h5 a {

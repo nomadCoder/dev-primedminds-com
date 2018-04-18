@@ -40,11 +40,9 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <div class="card-header" role="tab" id="headingThree">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h5 class="mb-0">Philosophy</h5>
-                        </a>
-                    </div>
+                    <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="btn-primary card-header" role="tab" id="headingThree">Philosophy</div>
+                    </a>
                     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
                             <p>Before taking your retinue to a new territory, you launch an exploration. You get a taste and decide whether heading out even makes sense. </p>
@@ -60,11 +58,9 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <div class="card-header" role="tab" id="headingFour">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            <h5 class="mb-0">What is mathematics anyway?</h5>
-                        </a>
-                    </div>
+                    <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="btn-primary card-header" role="tab" id="headingFour">What is mathematics anyway?</div>
+                    </a>
                     <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
                             <p>Mathematics is to think deeply about simple things.</p>
@@ -74,11 +70,9 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <div class="card-header" role="tab" id="headingFive">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            <h5 class="mb-0">How do I try an Exploration?</h5>
-                        </a>
-                    </div>
+                    <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <div class="btn-primary card-header" role="tab" id="headingFive">How do I try an Exploration?</div>
+                    </a>
                     <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
                         <div class="card-body">
                             <p>There's been enough talk, just <a href="/explorations.html">pick one</a> and dive in!</p>
@@ -86,11 +80,9 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-header" role="tab" id="headingSix">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            <h5 class="mb-0">Are there any teacher resources?</h5>
-                        </a>
-                    </div>
+                    <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <div class="btn-primary card-header" role="tab" id="headingSix">Are there any teacher resources?</div>
+                    </a>
                     <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion">
                         <div class="card-body">
                             <p>Yes! We have lesson plans to accompany Exlporations that expand and relate materials to standard curriculum. Check our <a href="/resources.html">Resources Page</a> for more information</p>
