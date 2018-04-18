@@ -17,7 +17,7 @@
 
             <div id="accordion" role="tablist">
                 <div class="card">
-                    <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <div class="btn-primary card-header" role="tab" id="headingOne">What is Primed Minds?</div>
                     </a>
                     <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
@@ -30,7 +30,7 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div class="btn-primary card-header" role="tab" id="headingTwo">Are there any teacher resources?</div>
                     </a>
                     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -40,7 +40,7 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <div class="btn-primary card-header" role="tab" id="headingThree">The explorations are too easy</div>
                     </a>
                     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
@@ -50,7 +50,7 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         <div class="btn-primary card-header" role="tab" id="headingFour">The explorations are too hard</div>
                     </a>
                     <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
@@ -60,7 +60,7 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         <div class="btn-primary card-header" role="tab" id="headingFive">There was stuff I don't understand</div>
                     </a>
                     <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                         <div class="btn-primary card-header" role="tab" id="headingSix">Are there explosions in every Exploration?</div>
                     </a>
                     <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion">
