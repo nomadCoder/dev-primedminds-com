@@ -110,7 +110,12 @@
                                     { "src" : "/media/slideshow/faq/ChocolateFractions12.jpg" , "alt" : "" } ,
                                     { "src" : "/media/slideshow/faq/ChocolateFractions13.jpg" , "alt" : "" } ,
                                     { "src" : "/media/slideshow/faq/ChocolateFractions14.jpg" , "alt" : "" } ,
-                                    { "src" : "/media/slideshow/faq/ChocolateFractions15.jpg" , "alt" : "" } ] ';
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions15.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions16.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions18.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions19.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions20.jpg" , "alt" : "" } ,
+                                    { "src" : "/media/slideshow/faq/ChocolateFractions21.jpg" , "alt" : "" } ] ';
 
                 include $_SERVER['DOCUMENT_ROOT'].'/php-inc/asset-slideshow.php';   
             ?>                     
