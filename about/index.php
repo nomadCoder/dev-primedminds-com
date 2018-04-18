@@ -16,7 +16,7 @@
         <div class="col-4"> <!-- Side page menu -->
             <div id="accordion" role="tablist">
                 <div class="card">
-                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         <div class="btn-primary card-header" role="tab" id="headingOne">What is Primed Minds?</div>
                     </a>
                     <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">

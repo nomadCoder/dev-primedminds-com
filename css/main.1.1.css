@@ -184,11 +184,19 @@ a.navbar-brand:hover, a.navbar-brand:active {
 
 .card-header  {
     background-color: #dc2222;
+    color: #ffffff;
     border-radius: 30px !important;
     box-shadow: 2px 2px 1px #888888;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1.25rem;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    background-color: #dc2222 !important; 
 }
 
 a .card-header {
