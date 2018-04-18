@@ -24,7 +24,7 @@
                     </div>
                 -->    
                 <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    <div class="btn-primary" role="tab" id="headingOne">
+                    <div class="btn-primary card-header" role="tab" id="headingOne">
                         
                             What is Primed Minds?
                         
