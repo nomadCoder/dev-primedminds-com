@@ -1,7 +1,7 @@
 <? // Header including navigation bar ?>
 
 <header class="fixed-top"> 
-    <nav class="navbar navbar-toggleable-md canvas navpad" role="navigation">
+    <nav class="navbar navbar-toggleable-md canvas sidepad" role="navigation">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
