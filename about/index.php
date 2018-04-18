@@ -23,12 +23,13 @@
                         </a>
                     </div>
                 -->    
-                    <div class="card-header" role="tab" id="headingOne">
-                        <a class="collapsed btn-primary" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <div class="btn-primary" role="tab" id="headingOne">
+                        
                             What is Primed Minds?
-                        </a>
+                        
                     </div>
-
+</a>
 
                     <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
@@ -181,9 +182,12 @@
             </div>
         </div>
     </div>    
-    
+
     <div class="row canvas">
         <h2>Partners</h2>
+    </div>
+    
+    <div class="row canvas">
         <div class="col-4">
             <a data-toggle="collapse" href="#partner01" aria-expanded="false" aria-controls="partner01">
                 <img src="/assets/about/gmp_uplifting.jpg" title="Global Math Project">
