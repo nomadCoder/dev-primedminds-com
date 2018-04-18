@@ -223,7 +223,7 @@ a .card-header, a .btn-primary:hover, a .btn-primary:focus, a .btn-primary:activ
     height: 100%;
 }
 
-a.card-link {
+a.card-link, a.collapsed  {
     text-decoration: none;
     color: #ffffff;
 }
