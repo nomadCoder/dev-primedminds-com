@@ -16,21 +16,9 @@
         <div class="col-4"> <!-- Side page menu -->
             <div id="accordion" role="tablist">
                 <div class="card">
-                <!--
-                    <div class="card-header" role="tab" id="headingOne">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            <h5 class="mb-0">What is Primed Minds?</h5>
-                        </a>
-                    </div>
-                -->    
-                <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    <div class="btn-primary card-header" role="tab" id="headingOne">
-                        
-                            What is Primed Minds?
-                        
-                    </div>
-</a>
-
+                    <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <div class="btn-primary card-header" role="tab" id="headingOne">What is Primed Minds?</div>
+                    </a>
                     <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
                             <p>Primed Minds is a tool to inspire you mathematically!</p>
@@ -40,11 +28,9 @@
                     </div>    
                 </div>
                 <div class="card">
-                    <div class="card-header" role="tab" id="headingTwo">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h5 class="mb-0">Who is this for?</h5>
-                        </a>
-                    </div>
+                    <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="btn-primary card-header" role="tab" id="headingTwo">Who is this for?</div>
+                    </a>
                     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body"> 
                             <p>Primed Minds is aimed squarely at middle and high school students, though many of the Explorations are actually accessible to grade-schoolers. This is not your standard curriculum. Primed Minds is designed to inspire interest, rather than educate on specifics. </p>

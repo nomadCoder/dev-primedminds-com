@@ -190,6 +190,11 @@ a.navbar-brand:hover, a.navbar-brand:active {
     margin-bottom: 10px;
 }
 
+a .card-header {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .card-header h5 a {
     text-decoration: none;
     color: #ffffff;

@@ -1,8 +1,8 @@
 <?php 
     // Set page variables
     
-    // $pageTitle = ""; // Variable to append the page title "Primed Minds" with " - <pageTitle>"
-     $addHeadCode = '<style type="text/css"> body { background-color: #000; } </style>'; // Variable to add any additional code to the head for the page
+    $pageTitle = "Resources"; // Variable to append the page title "Primed Minds" with " - <pageTitle>"
+    // $addHeadCode = '<style type="text/css"> body { background-color: #000; } </style>'; // Variable to add any additional code to the head for the page
 
     // Include the document start and standard page header
     include $_SERVER['DOCUMENT_ROOT'].'/php-inc/doc-start-basic.php';
